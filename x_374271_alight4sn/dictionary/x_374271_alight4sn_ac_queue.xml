@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="AC Queue" max_length="40" name="x_374271_alight4sn_ac_queue" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Call Record" max_length="40" name="call_record" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="None" sequence="0" value="None"/>
+                <element inactive_on_update="false" label="Representative" sequence="0" value="Representative"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Customer on Hold Treatment" max_length="40" name="customer_on_hold_treatment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Default" sequence="0" value="Default"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Open Hours" max_length="40" name="open_hours" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Default" sequence="0" value="Default"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Play Queue Prompt" max_length="40" name="play_queue_prompt" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Post Call Survey" max_length="40" name="post_call_survey" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Queue ID" max_length="40" name="queue_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Queue Name" max_length="40" name="queue_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Queue Prompt" max_length="300" name="queue_prompt" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Queue Prompt Lang 2" max_length="300" name="queue_prompt_lang_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Queue Prompt Lang 3" max_length="300" name="queue_prompt_lang_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Treatment in Queue" max_length="40" name="treatment_in_queue" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Default" sequence="0" value="Default"/>
+                <element inactive_on_update="false" label="Queue Flow 1" sequence="0" value="Queue Flow 1"/>
+                <element inactive_on_update="false" label="Queue Flow 3" sequence="0" value="Queue Flow 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Whisper" max_length="40" name="whisper" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+            </choice>
+        </element>
+    </element>
+</database>

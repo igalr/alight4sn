@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Alight4sn 1582649827573" max_length="40" name="x_374271_alight4sn_1582649827573" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=User Flow ID" label="User Flow ID" max_length="40" name="u_user_flow_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=User Variable 1" label="User Variable 1" max_length="101" name="u_user_variable_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=User Variable 2" label="User Variable 2" max_length="40" name="u_user_variable_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=User Variable 3" label="User Variable 3" max_length="40" name="u_user_variable_3" type="string"/>
+    </element>
+</database>

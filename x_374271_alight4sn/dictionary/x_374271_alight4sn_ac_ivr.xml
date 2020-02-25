@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="AC IVR" max_length="40" name="x_374271_alight4sn_ac_ivr" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Action" max_length="40" name="action" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="300" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Flow" max_length="40" name="flow" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Intent" max_length="40" name="intent" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Label" max_length="40" name="label" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Next Path" max_length="40" name="next_path" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Path" max_length="40" name="path" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason" max_length="200" name="reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Subreason" max_length="200" name="subreason" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Alight4sn 1582646233828" max_length="40" name="x_374271_alight4sn_1582646233828" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ACP ID" label="ACP ID" max_length="40" name="u_acp_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=API URL" label="API URL" max_length="41" name="u_api_url" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Label" label="Label" max_length="40" name="u_label" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Label Lang 2" label="Label Lang 2" max_length="40" name="u_label_lang_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Label Lang 3" label="Label Lang 3" max_length="40" name="u_label_lang_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Language" label="Language" max_length="40" name="u_language" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Reason" label="Reason" max_length="40" name="u_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SN On Click" label="SN On Click" max_length="91" name="u_sn_on_click" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Subreason" label="Subreason" max_length="40" name="u_subreason" type="string"/>
+    </element>
+</database>

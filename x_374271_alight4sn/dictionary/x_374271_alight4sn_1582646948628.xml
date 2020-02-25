@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Alight4sn 1582646948628" max_length="40" name="x_374271_alight4sn_1582646948628" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Customer Number" label="Customer Number" max_length="40" name="u_customer_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Dialed Number" label="Dialed Number" max_length="40" name="u_dialed_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IVR Entry Point" label="IVR Entry Point" max_length="40" name="u_ivr_entry_point" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IVR Pre Flow" label="IVR Pre Flow" max_length="40" name="u_ivr_pre_flow" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Line Closed Flow" label="Line Closed Flow" max_length="40" name="u_line_closed_flow" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Line Name" label="Line Name" max_length="40" name="u_line_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Line Open Hours" label="Line Open Hours" max_length="40" name="u_line_open_hours" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Pre Flow ID" label="Pre Flow ID" max_length="40" name="u_pre_flow_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Prompt Language" label="Prompt Language" max_length="40" name="u_prompt_language" type="string"/>
+    </element>
+</database>

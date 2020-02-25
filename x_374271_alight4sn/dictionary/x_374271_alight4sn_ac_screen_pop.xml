@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="AC Screen Pop" max_length="40" name="x_374271_alight4sn_ac_screen_pop" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="API Call" max_length="500" name="api_call" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Browser Tab" max_length="200" name="browser_tab" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Call State" max_length="40" name="call_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Language" max_length="40" name="language" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Queue" max_length="40" name="queue" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason" max_length="40" name="reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Subreason" max_length="40" name="subreason" type="string"/>
+    </element>
+</database>

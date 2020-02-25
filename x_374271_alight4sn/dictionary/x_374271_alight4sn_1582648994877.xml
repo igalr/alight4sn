@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Alight4sn 1582648994877" max_length="40" name="x_374271_alight4sn_1582648994877" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Call Record" label="Call Record" max_length="40" name="u_call_record" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Customer on Hold Treatment" label="Customer on Hold Treatment" max_length="40" name="u_customer_on_hold_treatment" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Open Hours" label="Open Hours" max_length="40" name="u_open_hours" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Play Queue Prompt" label="Play Queue Prompt" max_length="40" name="u_play_queue_prompt" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Queue ID" label="Queue ID" max_length="40" name="u_queue_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Queue Name" label="Queue Name" max_length="40" name="u_queue_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Queue Prompt" label="Queue Prompt" max_length="71" name="u_queue_prompt" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Queue Prompt Lang 2" label="Queue Prompt Lang 2" max_length="88" name="u_queue_prompt_lang_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Queue Prompt Lang 3" label="Queue Prompt Lang 3" max_length="40" name="u_queue_prompt_lang_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Treatment in Queue" label="Treatment in Queue" max_length="40" name="u_treatment_in_queue" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Whisper" label="Whisper" max_length="40" name="u_whisper" type="string"/>
+    </element>
+</database>

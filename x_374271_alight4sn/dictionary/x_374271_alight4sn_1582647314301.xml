@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Alight4sn 1582647314301" max_length="40" name="x_374271_alight4sn_1582647314301" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Action" label="Action" max_length="40" name="u_action" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="206" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Flow" label="Flow" max_length="40" name="u_flow" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Intent" label="Intent" max_length="40" name="u_intent" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Label" label="Label" max_length="40" name="u_label" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Next Path" label="Next Path" max_length="40" name="u_next_path" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Path" label="Path" max_length="40" name="u_path" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Reason" label="Reason" max_length="40" name="u_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Subreason" label="Subreason" max_length="40" name="u_subreason" type="string"/>
+    </element>
+</database>
