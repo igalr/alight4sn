@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="customer_on_hold_treatment" label="Customer on Hold Treatment" language="en" table="x_374271_alight4sn_ac_queue">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>customer_on_hold_treatment</element>
+            <help/>
+            <hint/>
+            <label>Customer on Hold Treatment</label>
+            <language>en</language>
+            <name>x_374271_alight4sn_ac_queue</name>
+            <plural>Customer on Hold Treatments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 16:46:57</sys_created_on>
+            <sys_id>3eb7927f2f0300103ef85ff62799b648</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Customer on Hold Treatment</sys_name>
+            <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+            <sys_update_name>sys_documentation_x_374271_alight4sn_ac_queue_customer_on_hold_treatment_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 16:46:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

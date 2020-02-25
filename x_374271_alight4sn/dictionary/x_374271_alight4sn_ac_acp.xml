@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="AC ACP" max_length="40" name="x_374271_alight4sn_ac_acp" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="ACP ID" max_length="40" name="acp_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="API URL" max_length="500" name="api_url" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Label" max_length="40" name="label" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Label Lang 2" max_length="40" name="label_lang_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Label Lang 3" max_length="40" name="label_lang_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Language" max_length="40" name="language" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason" max_length="40" name="reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SN On Click" max_length="500" name="sn_on_click" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Subreason" max_length="40" name="subreason" type="string"/>
+    </element>
+</database>

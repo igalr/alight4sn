@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_action_name" label="Action Name" language="en" table="x_374271_alight4sn_1582646388444">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_action_name</element>
+            <help/>
+            <hint/>
+            <label>Action Name</label>
+            <language>en</language>
+            <name>x_374271_alight4sn_1582646388444</name>
+            <plural>Action Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 15:59:50</sys_created_on>
+            <sys_id>acfc06b72f0300103ef85ff62799b6ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Action Name</sys_name>
+            <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+            <sys_update_name>sys_documentation_x_374271_alight4sn_1582646388444_u_action_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 15:59:50</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

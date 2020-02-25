@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="AC User Flow" max_length="40" name="x_374271_alight4sn_ac_user_flow" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="User Flow ID" max_length="40" name="user_flow_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User Variable 1" max_length="300" name="user_variable_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User Variable 2" max_length="300" name="user_variable_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User Variable 3" max_length="300" name="user_variable_3" type="string"/>
+    </element>
+</database>

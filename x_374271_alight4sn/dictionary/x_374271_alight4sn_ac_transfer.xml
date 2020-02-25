@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="AC Transfer" max_length="40" name="x_374271_alight4sn_ac_transfer" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="200" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Transfer ID" max_length="40" name="transfer_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Transfer Number" max_length="40" name="transfer_number" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="AC Directory" max_length="40" name="x_374271_alight4sn_ac_directory" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Alight Tab Name" max_length="50" name="alight_tab_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SN Field - Alight Field" max_length="200" name="sn_field_alight_field" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SN Table Name" max_length="50" name="sn_table_name" type="string"/>
+    </element>
+</database>
