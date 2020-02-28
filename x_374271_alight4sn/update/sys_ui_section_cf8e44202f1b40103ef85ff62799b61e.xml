@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="cf8e44202f1b40103ef85ff62799b61e" sys_domain="global" table="x_374271_alight4sn_ac_directory" version="3" view="Experiment">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sn_table_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-27 16:52:04</sys_created_on>
+            <sys_id>411c2c602f5b40103ef85ff62799b6af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_374271_alight4sn_ac_directory" sys_domain="global" view="0f8e44202f1b40103ef85ff62799b619">cf8e44202f1b40103ef85ff62799b61e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-27 16:52:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-27 16:52:04</sys_created_on>
+            <sys_id>c11c2c602f5b40103ef85ff62799b6af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_374271_alight4sn_ac_directory" sys_domain="global" view="0f8e44202f1b40103ef85ff62799b619">cf8e44202f1b40103ef85ff62799b61e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-27 16:52:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>alight_tab_name</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-27 16:52:04</sys_created_on>
+            <sys_id>451c2c602f5b40103ef85ff62799b6af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_374271_alight4sn_ac_directory" sys_domain="global" view="0f8e44202f1b40103ef85ff62799b619">cf8e44202f1b40103ef85ff62799b61e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-27 16:52:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-27 16:52:04</sys_created_on>
+            <sys_id>c51c2c602f5b40103ef85ff62799b6af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_374271_alight4sn_ac_directory" sys_domain="global" view="0f8e44202f1b40103ef85ff62799b619">cf8e44202f1b40103ef85ff62799b61e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-27 16:52:04</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sn_field_alight_field</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-27 16:52:04</sys_created_on>
+            <sys_id>491c2c602f5b40103ef85ff62799b6af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_374271_alight4sn_ac_directory" sys_domain="global" view="0f8e44202f1b40103ef85ff62799b619">cf8e44202f1b40103ef85ff62799b61e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-27 16:52:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_alight_field_to_sn_field</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-27 16:52:04</sys_created_on>
+            <sys_id>c91c2c602f5b40103ef85ff62799b6af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_374271_alight4sn_ac_directory" sys_domain="global" view="0f8e44202f1b40103ef85ff62799b619">cf8e44202f1b40103ef85ff62799b61e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-27 16:52:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_374271_alight4sn_ac_directory</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-27 14:43:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf8e44202f1b40103ef85ff62799b61e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_374271_alight4sn_ac_directory</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+            <sys_update_name>sys_ui_section_cf8e44202f1b40103ef85ff62799b61e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-27 14:43:02</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Experiment" name="Experiment">0f8e44202f1b40103ef85ff62799b619</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
