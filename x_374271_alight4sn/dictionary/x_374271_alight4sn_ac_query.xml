@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="AC Query" max_length="40" name="x_374271_alight4sn_ac_query" type="collection">
+    <element label="AC Query" max_length="40" name="x_374271_alight4sn_ac_query" sizeclass="2" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Query" max_length="300" name="query" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Query ID" max_length="40" name="query_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="System" max_length="100" name="system" type="string"/>

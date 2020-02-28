@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="AC SMS" max_length="40" name="x_374271_alight4sn_ac_sms" type="collection">
+    <element label="AC SMS" max_length="40" name="x_374271_alight4sn_ac_sms" sizeclass="1" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Message" max_length="300" name="message" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Message Lang 2" max_length="300" name="message_lang_2" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Message Lang 3" max_length="300" name="message_lang_3" type="string"/>

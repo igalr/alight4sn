@@ -1,45 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="AC Queue" max_length="40" name="x_374271_alight4sn_ac_queue" type="collection">
+    <element label="AC Queue" max_length="40" name="x_374271_alight4sn_ac_queue" sizeclass="3" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Call Record" max_length="40" name="call_record" type="choice">
             <choice>
                 <element inactive_on_update="false" label="None" sequence="0" value="None"/>
                 <element inactive_on_update="false" label="Representative" sequence="0" value="Representative"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Customer on Hold Treatment" max_length="40" name="customer_on_hold_treatment" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="default" label="Customer on Hold Treatment" max_length="40" name="customer_on_hold_treatment" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Default" sequence="0" value="Default"/>
+                <element inactive_on_update="false" label="Hold Flow 1" value="hold_flow_1"/>
+                <element inactive_on_update="false" label="Hold Flow 2" value="hold_flow_2"/>
+                <element inactive_on_update="false" label="Hold Flow 3" value="hold_flow_3"/>
+                <element inactive_on_update="false" label="Hold Flow 4" value="hold_flow_4"/>
+                <element inactive_on_update="false" label="Hold Flow 5" value="hold_flow_5"/>
+                <element inactive_on_update="false" label="Default" sequence="0" value="default"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Open Hours" max_length="40" name="open_hours" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="default" label="Open Hours" max_length="40" name="open_hours" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Default" sequence="0" value="Default"/>
+                <element inactive_on_update="false" label="Open Hours 1" value="open_hours_1"/>
+                <element inactive_on_update="false" label="Open Hours 2" value="open_hours_2"/>
+                <element inactive_on_update="false" label="Open Hours 3" value="open_hours_3"/>
+                <element inactive_on_update="false" label="Open Hours 4" value="open_hours_4"/>
+                <element inactive_on_update="false" label="Open Hours 5" value="open_hours_5"/>
+                <element inactive_on_update="false" label="Default" sequence="0" value="default"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Play Queue Prompt" max_length="40" name="play_queue_prompt" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="yes" label="Play Queue Prompt" max_length="40" name="play_queue_prompt" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Post Call Survey" max_length="40" name="post_call_survey" type="choice">
-            <choice/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Post Call Survey" max_length="40" name="post_call_survey" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" value="no"/>
+                <element inactive_on_update="false" label="Yes" value="yes"/>
+            </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Queue ID" max_length="40" name="queue_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Queue Name" max_length="40" name="queue_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Queue Prompt" max_length="300" name="queue_prompt" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Transferring you now.  Your call may be recorded for quality assurance." label="Queue Prompt" max_length="300" name="queue_prompt" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Queue Prompt Lang 2" max_length="300" name="queue_prompt_lang_2" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Queue Prompt Lang 3" max_length="300" name="queue_prompt_lang_3" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Treatment in Queue" max_length="40" name="treatment_in_queue" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="default" label="Treatment in Queue" max_length="40" name="treatment_in_queue" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Default" sequence="0" value="Default"/>
-                <element inactive_on_update="false" label="Queue Flow 1" sequence="0" value="Queue Flow 1"/>
-                <element inactive_on_update="false" label="Queue Flow 3" sequence="0" value="Queue Flow 3"/>
+                <element inactive_on_update="false" label="Queue Flow 2" value="queue_flow_2"/>
+                <element inactive_on_update="false" label="Queue Flow 4" value="queue_flow_4"/>
+                <element inactive_on_update="false" label="Queue Flow 5" value="queue_flow_5"/>
+                <element inactive_on_update="false" label="Default" sequence="0" value="default"/>
+                <element inactive_on_update="false" label="Queue Flow 1" sequence="0" value="queue_flow_1"/>
+                <element inactive_on_update="false" label="Queue Flow 3" sequence="0" value="queue_flow_3"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Whisper" max_length="40" name="whisper" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Whisper" max_length="40" name="whisper" type="choice">
             <choice>
-                <element inactive_on_update="false" label="No" sequence="0" value="No"/>
-                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="0" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
             </choice>
         </element>
     </element>

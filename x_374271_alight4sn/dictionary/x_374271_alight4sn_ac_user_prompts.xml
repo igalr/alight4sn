@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="AC User Prompts" max_length="40" name="x_374271_alight4sn_ac_user_prompts" type="collection">
+    <element label="AC User Prompts" max_length="40" name="x_374271_alight4sn_ac_user_prompts" sizeclass="10" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Contact Flow" max_length="100" name="contact_flow" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Prompt" max_length="300" name="prompt" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Prompt Lang 2" max_length="300" name="prompt_lang_2" type="string"/>

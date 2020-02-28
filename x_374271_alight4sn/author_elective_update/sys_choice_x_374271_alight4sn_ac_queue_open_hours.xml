@@ -5,6 +5,101 @@
             <element>open_hours</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Open Hours 1</label>
+            <language>en</language>
+            <name>x_374271_alight4sn_ac_queue</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-27 23:21:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e15c2682f1f40103ef85ff62799b6fa</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-27 23:23:05</sys_updated_on>
+            <value>open_hours_1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>open_hours</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open Hours 2</label>
+            <language>en</language>
+            <name>x_374271_alight4sn_ac_queue</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-27 23:21:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d03506e42f1f40103ef85ff62799b693</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-27 23:23:01</sys_updated_on>
+            <value>open_hours_2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>open_hours</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open Hours 3</label>
+            <language>en</language>
+            <name>x_374271_alight4sn_ac_queue</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-27 23:21:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f3586682f1f40103ef85ff62799b6c9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-27 23:22:57</sys_updated_on>
+            <value>open_hours_3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>open_hours</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open Hours 4</label>
+            <language>en</language>
+            <name>x_374271_alight4sn_ac_queue</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-27 23:21:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d4586682f1f40103ef85ff62799b6c2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-27 23:22:52</sys_updated_on>
+            <value>open_hours_4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>open_hours</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open Hours 5</label>
+            <language>en</language>
+            <name>x_374271_alight4sn_ac_queue</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-27 23:22:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5055c6682f1f40103ef85ff62799b69e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-27 23:22:26</sys_updated_on>
+            <value>open_hours_5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>open_hours</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Default</label>
             <language>en</language>
             <name>x_374271_alight4sn_ac_queue</name>
@@ -14,10 +109,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>6bb7d27f2f0300103ef85ff62799b60c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-02-25 16:47:00</sys_updated_on>
-            <value>Default</value>
+            <sys_updated_on>2020-02-27 23:28:08</sys_updated_on>
+            <value>default</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>open_hours</element>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Alight4sn 1582649290829" max_length="40" name="x_374271_alight4sn_1582649290829" type="collection">
+    <element extends="sys_import_set_row" label="Alight4sn 1582649290829" max_length="40" name="x_374271_alight4sn_1582649290829" sizeclass="3" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=API Call" label="API Call" max_length="88" name="u_api_call" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Browser Tab" label="Browser Tab" max_length="40" name="u_browser_tab" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Call State" label="Call State" max_length="40" name="u_call_state" type="string"/>

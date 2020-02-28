@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="AC Entry" max_length="40" name="x_374271_alight4sn_ac_entry" type="collection">
+    <element label="AC Entry" max_length="40" name="x_374271_alight4sn_ac_entry" sizeclass="6" type="collection">
         <element attributes="edge_encryption_enabled=true" label="ARN Action" max_length="40" name="arn_action" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Customer Number" max_length="40" name="customer_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="200" name="description" type="string"/>

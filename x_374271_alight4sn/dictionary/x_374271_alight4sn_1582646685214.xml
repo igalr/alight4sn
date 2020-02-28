@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Alight4sn 1582646685214" max_length="40" name="x_374271_alight4sn_1582646685214" type="collection">
+    <element extends="sys_import_set_row" label="Alight4sn 1582646685214" max_length="40" name="x_374271_alight4sn_1582646685214" sizeclass="14" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Alight Tab Name" label="Alight Tab Name" max_length="40" name="u_alight_tab_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SN Field - Alight Field" label="SN Field - Alight Field" max_length="372" name="u_sn_field___alight_field" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SN Table Name" label="SN Table Name" max_length="40" name="u_sn_table_name" type="string"/>

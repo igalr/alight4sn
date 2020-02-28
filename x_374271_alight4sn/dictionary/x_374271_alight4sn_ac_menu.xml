@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="AC Menu" max_length="40" name="x_374271_alight4sn_ac_menu" type="collection">
+    <element label="AC Menu" max_length="40" name="x_374271_alight4sn_ac_menu" sizeclass="7" type="collection">
         <element label="Max Repeats" max_length="40" name="max_repeats" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Menu ID" max_length="40" name="menu_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Number Sign" max_length="40" name="number_sign" type="choice">
