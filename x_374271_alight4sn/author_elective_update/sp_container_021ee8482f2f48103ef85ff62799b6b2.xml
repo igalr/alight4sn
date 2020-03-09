@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Alight Config Main - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="alight_config_main">5f016a8e2f5744103ef85ff62799b6b9</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-09 13:59:36</sys_created_on>
+        <sys_id>021ee8482f2f48103ef85ff62799b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alight Config Main - Container 2</sys_name>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name>sp_container_021ee8482f2f48103ef85ff62799b6b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-09 13:59:36</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</application>
+        <file_path/>
+        <instance_id>e976f94bdb3f13c0ff27d5b0cf96195c</instance_id>
+        <instance_name>dev70165</instance_name>
+        <name>sp_container_021ee8482f2f48103ef85ff62799b6b2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Alight Config Main - Container 2</name><order>2</order><sp_page display_value="alight_config_main">5f016a8e2f5744103ef85ff62799b6b9</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-09 13:59:36</sys_created_on><sys_id>021ee8482f2f48103ef85ff62799b6b2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Alight Config Main - Container 2</sys_name><sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package><sys_policy/><sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope><sys_update_name>sp_container_021ee8482f2f48103ef85ff62799b6b2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-09 13:59:36</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1589422842</payload_hash>
+        <record_name>Alight Config Main - Container 2</record_name>
+        <reverted_from/>
+        <source>8ce0f23f2f4300103ef85ff62799b61d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-09 13:59:36</sys_created_on>
+        <sys_id>8e1ee8482f2f48103ef85ff62799b6b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170bf9807200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-09 13:59:36</sys_updated_on>
+        <type>Container</type>
+        <update_guid>c61ee848e62f481045e0a8e6a15976b4</update_guid>
+        <update_guid_history>c61ee848e62f481045e0a8e6a15976b4:-1589422842</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Alight Config Main - Container 2">5b8ea4482f2f48103ef85ff62799b6c7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-09 14:01:36</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>6cfd408a5e804550ac2ee8bea7542390</sys_id>
+        <sys_metadata>021ee8482f2f48103ef85ff62799b6b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alight Config Main - Container 2</sys_name>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_scope_delete display_value="">09903dccdf5f4e8c81bfa9d2c636d0b9</sys_scope_delete>
+        <sys_update_name>sp_container_021ee8482f2f48103ef85ff62799b6b2</sys_update_name>
+        <sys_update_version display_value="sp_container_021ee8482f2f48103ef85ff62799b6b2">8e1ee8482f2f48103ef85ff62799b6b4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-09 14:01:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

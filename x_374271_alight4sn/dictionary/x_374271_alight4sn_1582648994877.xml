@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Alight4sn 1582648994877" max_length="40" name="x_374271_alight4sn_1582648994877" sizeclass="3" type="collection">
+    <element extends="sys_import_set_row" label="Alight4sn 1582648994877" max_length="40" name="x_374271_alight4sn_1582648994877" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Call Record" label="Call Record" max_length="40" name="u_call_record" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Customer on Hold Treatment" label="Customer on Hold Treatment" max_length="40" name="u_customer_on_hold_treatment" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Open Hours" label="Open Hours" max_length="40" name="u_open_hours" type="string"/>

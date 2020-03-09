@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>call_flows</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 15:05:33</sys_created_on>
+        <sys_id>f9a3824e2f1744103ef85ff62799b6a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>call_flows</sys_name>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name>sp_page_f9a3824e2f1744103ef85ff62799b6a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:05:33</sys_updated_on>
+        <title>Call Flows</title>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=f9a3824e2f1744103ef85ff62799b6a2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</application>
+        <file_path/>
+        <instance_id>e976f94bdb3f13c0ff27d5b0cf96195c</instance_id>
+        <instance_name>dev70165</instance_name>
+        <name>sp_page_f9a3824e2f1744103ef85ff62799b6a2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><id>call_flows</id><internal>false</internal><public>false</public><roles/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-03 15:05:33</sys_created_on><sys_id>f9a3824e2f1744103ef85ff62799b6a2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>call_flows</sys_name><sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package><sys_policy/><sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope><sys_update_name>sp_page_f9a3824e2f1744103ef85ff62799b6a2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-03 15:05:33</sys_updated_on><title>Call Flows</title></sp_page><sys_translated_text action="delete_multiple" query="documentkey=f9a3824e2f1744103ef85ff62799b6a2"/></record_update>]]></payload>
+        <payload_hash>-1381434837</payload_hash>
+        <record_name>call_flows</record_name>
+        <reverted_from/>
+        <source>8ce0f23f2f4300103ef85ff62799b61d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 15:05:33</sys_created_on>
+        <sys_id>39a3824e2f1744103ef85ff62799b6a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a0ee41a20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:05:33</sys_updated_on>
+        <type>Page</type>
+        <update_guid>71a3824eb51744100a806a80361fc7a4</update_guid>
+        <update_guid_history>71a3824eb51744100a806a80361fc7a4:-1381434837</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="call_flows">f8e4028e2f1744103ef85ff62799b62f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 15:10:57</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>0416d39c76c14b628b4572effd2c5b41</sys_id>
+        <sys_metadata>f9a3824e2f1744103ef85ff62799b6a2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>call_flows</sys_name>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_scope_delete display_value="">09903dccdf5f4e8c81bfa9d2c636d0b9</sys_scope_delete>
+        <sys_update_name>sp_page_f9a3824e2f1744103ef85ff62799b6a2</sys_update_name>
+        <sys_update_version display_value="sp_page_f9a3824e2f1744103ef85ff62799b6a2">39a3824e2f1744103ef85ff62799b6a4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:10:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

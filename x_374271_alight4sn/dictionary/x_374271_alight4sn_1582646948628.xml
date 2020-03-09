@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Alight4sn 1582646948628" max_length="40" name="x_374271_alight4sn_1582646948628" sizeclass="6" type="collection">
+    <element extends="sys_import_set_row" label="Alight4sn 1582646948628" max_length="40" name="x_374271_alight4sn_1582646948628" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Customer Number" label="Customer Number" max_length="40" name="u_customer_number" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="40" name="u_description" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Dialed Number" label="Dialed Number" max_length="40" name="u_dialed_number" type="string"/>

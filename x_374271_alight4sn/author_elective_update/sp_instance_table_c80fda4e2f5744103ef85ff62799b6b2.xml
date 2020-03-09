@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph>random</glyph>
+        <id/>
+        <maximum_entries>30</maximum_entries>
+        <order>1</order>
+        <order_by>transfer_id</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1fde9a4e2f5744103ef85ff62799b66b</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 17:05:03</sys_created_on>
+        <sys_id>c80fda4e2f5744103ef85ff62799b6b2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Transfer</sys_name>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name>sp_instance_table_c80fda4e2f5744103ef85ff62799b6b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 17:05:45</sys_updated_on>
+        <table>x_374271_alight4sn_ac_transfer</table>
+        <title>Transfer</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=c80fda4e2f5744103ef85ff62799b6b2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</application>
+        <file_path/>
+        <instance_id>e976f94bdb3f13c0ff27d5b0cf96195c</instance_id>
+        <instance_name>dev70165</instance_name>
+        <name>sp_instance_table_c80fda4e2f5744103ef85ff62799b6b2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list/><filter/><glyph>random</glyph><id/><maximum_entries>30</maximum_entries><order>1</order><order_by>transfer_id</order_by><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">1fde9a4e2f5744103ef85ff62799b66b</sp_column><sp_page/><sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-03 17:05:03</sys_created_on><sys_id>c80fda4e2f5744103ef85ff62799b6b2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Transfer</sys_name><sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package><sys_policy/><sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope><sys_update_name>sp_instance_table_c80fda4e2f5744103ef85ff62799b6b2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-03 17:05:45</sys_updated_on><table>x_374271_alight4sn_ac_transfer</table><title>Transfer</title><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=c80fda4e2f5744103ef85ff62799b6b2"/></record_update>]]></payload>
+        <payload_hash>481060386</payload_hash>
+        <record_name>Transfer</record_name>
+        <reverted_from/>
+        <source>8ce0f23f2f4300103ef85ff62799b61d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 17:05:45</sys_created_on>
+        <sys_id>162f9a8a2f5744103ef85ff62799b6b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a15c4bb30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 17:05:45</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>5e2f9a8a675744100e383d484d542eaf</update_guid>
+        <update_guid_history>5e2f9a8a675744100e383d484d542eaf:481060386,4c0fda4e50574410432703ea47778bb3:-1111078820</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Transfer">275f528e2f5744103ef85ff62799b6ca</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 17:06:39</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>0320ee6f62214ba0807bb9dd4d216400</sys_id>
+        <sys_metadata>c80fda4e2f5744103ef85ff62799b6b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Transfer</sys_name>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_scope_delete display_value="">09903dccdf5f4e8c81bfa9d2c636d0b9</sys_scope_delete>
+        <sys_update_name>sp_instance_table_c80fda4e2f5744103ef85ff62799b6b2</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_c80fda4e2f5744103ef85ff62799b6b2">162f9a8a2f5744103ef85ff62799b6b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 17:06:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

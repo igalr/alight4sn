@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <sp_column display_value="1">df9e07ca2fd744103ef85ff62799b6b5</sp_column>
+        <sp_container/>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 20:33:18</sys_created_on>
+        <sys_id>72aecb8a2fd744103ef85ff62799b6b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name>sp_row_72aecb8a2fd744103ef85ff62799b6b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 20:33:18</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</application>
+        <file_path/>
+        <instance_id>e976f94bdb3f13c0ff27d5b0cf96195c</instance_id>
+        <instance_name>dev70165</instance_name>
+        <name>sp_row_72aecb8a2fd744103ef85ff62799b6b5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column display_value="1">df9e07ca2fd744103ef85ff62799b6b5</sp_column><sp_container/><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-03 20:33:18</sys_created_on><sys_id>72aecb8a2fd744103ef85ff62799b6b5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package><sys_policy/><sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope><sys_update_name>sp_row_72aecb8a2fd744103ef85ff62799b6b5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-03 20:33:18</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>1064527548</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>8ce0f23f2f4300103ef85ff62799b61d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 20:33:18</sys_created_on>
+        <sys_id>baae47ca2fd744103ef85ff62799b62f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a21a510d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 20:33:18</sys_updated_on>
+        <type>Row</type>
+        <update_guid>beaecb8a08d744104a99c4e03981bab5</update_guid>
+        <update_guid_history>beaecb8a08d744104a99c4e03981bab5:1064527548</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">62ebcfde2f1384103ef85ff62799b6c6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 14:59:46</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>0859b4e8810c4eebaf57daaa23e790a9</sys_id>
+        <sys_metadata>72aecb8a2fd744103ef85ff62799b6b5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_scope_delete display_value="">09903dccdf5f4e8c81bfa9d2c636d0b9</sys_scope_delete>
+        <sys_update_name>sp_row_72aecb8a2fd744103ef85ff62799b6b5</sys_update_name>
+        <sys_update_version display_value="sp_row_72aecb8a2fd744103ef85ff62799b6b5">baae47ca2fd744103ef85ff62799b62f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 14:59:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

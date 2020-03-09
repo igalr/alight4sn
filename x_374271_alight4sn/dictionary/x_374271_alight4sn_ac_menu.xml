@@ -2,17 +2,17 @@
     <element label="AC Menu" max_length="40" name="x_374271_alight4sn_ac_menu" sizeclass="7" type="collection">
         <element label="Max Repeats" max_length="40" name="max_repeats" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Menu ID" max_length="40" name="menu_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Number Sign" max_length="40" name="number_sign" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="invalid" label="Number Sign" max_length="40" name="number_sign" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Invalid" sequence="0" value="Invalid"/>
+                <element inactive_on_update="false" label="Invalid" sequence="0" value="invalid"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Prompt" max_length="300" name="prompt" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Prompt Lang 2" max_length="300" name="prompt_lang_2" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Prompt Lang 3" max_length="300" name="prompt_lang_3" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Star" max_length="40" name="star" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="invalid" label="Star" max_length="40" name="star" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Return to Main" sequence="0" value="Return to Main"/>
+                <element inactive_on_update="false" label="Return to Main" sequence="0" value="main"/>
             </choice>
         </element>
         <element label="1" max_length="40" name="u_1" type="boolean"/>
@@ -24,10 +24,10 @@
         <element label="7" max_length="40" name="u_7" type="boolean"/>
         <element label="8" max_length="40" name="u_8" type="boolean"/>
         <element label="9" max_length="40" name="u_9" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Zero" max_length="40" name="zero" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="invalid" label="Zero" max_length="40" name="zero" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Invalid" sequence="0" value="Invalid"/>
-                <element inactive_on_update="false" label="Zero Out" sequence="0" value="Zero Out"/>
+                <element inactive_on_update="false" label="Invalid" sequence="0" value="invalid"/>
+                <element inactive_on_update="false" label="Zero Out" sequence="0" value="zero"/>
             </choice>
         </element>
     </element>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Alight4sn 1582646233828" max_length="40" name="x_374271_alight4sn_1582646233828" sizeclass="14" type="collection">
+    <element extends="sys_import_set_row" label="Alight4sn 1582646233828" max_length="40" name="x_374271_alight4sn_1582646233828" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=ACP ID" label="ACP ID" max_length="40" name="u_acp_id" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=API URL" label="API URL" max_length="41" name="u_api_url" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Label" label="Label" max_length="40" name="u_label" type="string"/>

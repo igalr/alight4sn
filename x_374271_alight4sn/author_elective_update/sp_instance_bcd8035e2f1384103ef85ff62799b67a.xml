@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">392166ce2f5744103ef85ff62799b631</sp_column>
+        <sp_widget display_value="CAB Workbench - Header">961100b89f131200b18a7feea57fcf52</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 14:46:15</sys_created_on>
+        <sys_id>bcd8035e2f1384103ef85ff62799b67a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name>sp_instance_bcd8035e2f1384103ef85ff62799b67a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 14:46:15</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=bcd8035e2f1384103ef85ff62799b67a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</application>
+        <file_path/>
+        <instance_id>e976f94bdb3f13c0ff27d5b0cf96195c</instance_id>
+        <instance_name>dev70165</instance_name>
+        <name>sp_instance_bcd8035e2f1384103ef85ff62799b67a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">392166ce2f5744103ef85ff62799b631</sp_column><sp_widget display_value="CAB Workbench - Header">961100b89f131200b18a7feea57fcf52</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-04 14:46:15</sys_created_on><sys_id>bcd8035e2f1384103ef85ff62799b67a</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package><sys_policy/><sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope><sys_update_name>sp_instance_bcd8035e2f1384103ef85ff62799b67a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-04 14:46:15</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=bcd8035e2f1384103ef85ff62799b67a"/></record_update>]]></payload>
+        <payload_hash>943042513</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8ce0f23f2f4300103ef85ff62799b61d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 14:46:16</sys_created_on>
+        <sys_id>38d8035e2f1384103ef85ff62799b67c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a602f2c00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 14:46:16</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>70d8035e64138410cdd8ceabc7da7e7c</update_guid>
+        <update_guid_history>70d8035e64138410cdd8ceabc7da7e7c:943042513</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">62ebcfde2f1384103ef85ff62799b6b0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 14:59:46</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>3ebc23058ab14ec88aafee7865eaa8a9</sys_id>
+        <sys_metadata>bcd8035e2f1384103ef85ff62799b67a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_scope_delete display_value="">09903dccdf5f4e8c81bfa9d2c636d0b9</sys_scope_delete>
+        <sys_update_name>sp_instance_bcd8035e2f1384103ef85ff62799b67a</sys_update_name>
+        <sys_update_version display_value="sp_instance_bcd8035e2f1384103ef85ff62799b67a">38d8035e2f1384103ef85ff62799b67c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 14:59:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

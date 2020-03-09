@@ -45,12 +45,12 @@
         <element attributes="edge_encryption_enabled=true" label="Queue Prompt Lang 3" max_length="300" name="queue_prompt_lang_3" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="default" label="Treatment in Queue" max_length="40" name="treatment_in_queue" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Queue Flow 2" value="queue_flow_2"/>
-                <element inactive_on_update="false" label="Queue Flow 4" value="queue_flow_4"/>
-                <element inactive_on_update="false" label="Queue Flow 5" value="queue_flow_5"/>
-                <element inactive_on_update="false" label="Default" sequence="0" value="default"/>
-                <element inactive_on_update="false" label="Queue Flow 1" sequence="0" value="queue_flow_1"/>
-                <element inactive_on_update="false" label="Queue Flow 3" sequence="0" value="queue_flow_3"/>
+                <element inactive_on_update="false" label="Default" sequence="1" value="default"/>
+                <element inactive_on_update="false" label="Queue Flow 1" sequence="2" value="queue_flow_1"/>
+                <element inactive_on_update="false" label="Queue Flow 2" sequence="3" value="queue_flow_2"/>
+                <element inactive_on_update="false" label="Queue Flow 3" sequence="4" value="queue_flow_3"/>
+                <element inactive_on_update="false" label="Queue Flow 4" sequence="5" value="queue_flow_4"/>
+                <element inactive_on_update="false" label="Queue Flow 5" sequence="6" value="queue_flow_5"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Whisper" max_length="40" name="whisper" type="choice">
