@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="AC Sys Flow" max_length="40" name="x_374271_alight4sn_ac_sys_flow" sizeclass="0" type="collection">
+        <element label="Sys Flow ID" max_length="40" name="sys_flow_id" type="string"/>
+        <element label="User Variable 1" max_length="300" name="user_variable_1" type="string"/>
+        <element label="User Variable 2" max_length="300" name="user_variable_2" type="string"/>
+    </element>
+</database>

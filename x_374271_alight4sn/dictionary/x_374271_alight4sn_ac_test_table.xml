@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="AC Test Table" max_length="40" name="x_374271_alight4sn_ac_test_table" sizeclass="0" type="collection">
+        <element label="Schedule" max_length="1000" name="schedule" reference="cmn_schedule" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="schedule" dependent_on_field="schedule" label="New Choice" max_length="40" name="u_choice_1" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+    </element>
+</database>
