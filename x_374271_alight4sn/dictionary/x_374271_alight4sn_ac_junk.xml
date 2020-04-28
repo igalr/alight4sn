@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="AC Junk" max_length="40" name="x_374271_alight4sn_ac_junk" sizeclass="1" type="collection">
+    <element label="AC Junk" max_length="40" name="x_374271_alight4sn_ac_junk" sizeclass="2" type="collection">
         <element default="Column name" label="First Column" max_length="40" name="first_column" type="string"/>
     </element>
 </database>

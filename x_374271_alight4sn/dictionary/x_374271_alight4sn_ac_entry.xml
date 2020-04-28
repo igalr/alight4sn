@@ -16,9 +16,9 @@
         <element attributes="edge_encryption_enabled=true" label="Pre Flow ID" max_length="40" name="pre_flow_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Prompt Language" max_length="40" name="prompt_language" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Ask Caller" sequence="0" value="Ask Caller"/>
-                <element inactive_on_update="false" label="English" sequence="0" value="English"/>
-                <element inactive_on_update="false" label="French" sequence="0" value="French"/>
+                <element inactive_on_update="false" label="Ask Caller" sequence="0" value="ask"/>
+                <element inactive_on_update="false" label="English" sequence="0" value="en"/>
+                <element inactive_on_update="false" label="French" sequence="0" value="fr"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Start ARN" max_length="300" name="start_arn" type="string"/>
