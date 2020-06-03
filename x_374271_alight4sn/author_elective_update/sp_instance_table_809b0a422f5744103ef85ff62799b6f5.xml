@@ -63,7 +63,7 @@
         <update_guid_history>4bfbce420a574410de6df28f7c2b053f:558471532,b8db8e42a25744103018eb64bdf59039:6634715,8c9b8e42d4574410272e3f585e5bc8b1:1591085404</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Entry Points">630d0e822f5744103ef85ff62799b6a8</sys_audit_delete>
+        <sys_audit_delete display_value="">630d0e822f5744103ef85ff62799b6a8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 15:46:39</sys_created_on>

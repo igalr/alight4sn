@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="AC ARN" max_length="40" name="x_374271_alight4sn_ac_arn" sizeclass="19" type="collection">
+    <element label="AC ARN" max_length="40" name="x_374271_alight4sn_ac_arn" sizeclass="23" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Action Name" max_length="40" name="action_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ARN" max_length="300" name="arn" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ARN Name" max_length="50" name="arn_name" type="string"/>

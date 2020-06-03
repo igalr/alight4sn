@@ -8,7 +8,7 @@
         <container_class_name/>
         <name>Alight Config Main - Container 1</name>
         <order>1</order>
-        <sp_page display_value="alight_config_main">5f016a8e2f5744103ef85ff62799b6b9</sp_page>
+        <sp_page display_value="">5f016a8e2f5744103ef85ff62799b6b9</sp_page>
         <subheader>false</subheader>
         <sys_class_name>sp_container</sys_class_name>
         <sys_created_by>admin</sys_created_by>

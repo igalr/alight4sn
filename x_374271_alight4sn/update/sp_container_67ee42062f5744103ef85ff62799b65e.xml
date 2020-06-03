@@ -8,7 +8,7 @@
         <container_class_name/>
         <name>Alight Menus - Container 1</name>
         <order>1</order>
-        <sp_page display_value="alight_menus">e3ee42062f5744103ef85ff62799b65c</sp_page>
+        <sp_page display_value="">e3ee42062f5744103ef85ff62799b65c</sp_page>
         <subheader>false</subheader>
         <sys_class_name>sp_container</sys_class_name>
         <sys_created_by>admin</sys_created_by>

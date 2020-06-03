@@ -16,7 +16,7 @@
         <short_description>Define the characteristics and related properties of the queues</short_description>
         <size>md</size>
         <sp_column display_value="1">3900d30e2fd744103ef85ff62799b676</sp_column>
-        <sp_page display_value="alight_queues">5ec15e462f5744103ef85ff62799b6b4</sp_page>
+        <sp_page display_value="">5ec15e462f5744103ef85ff62799b6b4</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>

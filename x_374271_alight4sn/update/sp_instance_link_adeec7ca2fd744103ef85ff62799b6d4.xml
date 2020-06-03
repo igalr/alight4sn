@@ -16,7 +16,7 @@
         <short_description>Define screen pops of other applications or web pages</short_description>
         <size>md</size>
         <sp_column display_value="2">fd00d30e2fd744103ef85ff62799b677</sp_column>
-        <sp_page display_value="alight_screen_pops">372216862f5744103ef85ff62799b6f6</sp_page>
+        <sp_page display_value="">372216862f5744103ef85ff62799b6f6</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>

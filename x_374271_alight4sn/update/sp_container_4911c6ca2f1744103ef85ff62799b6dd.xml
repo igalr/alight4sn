@@ -8,7 +8,7 @@
         <container_class_name/>
         <name>Alight ACP - Container 1</name>
         <order>1</order>
-        <sp_page display_value="alight_acp">c111c6ca2f1744103ef85ff62799b6d9</sp_page>
+        <sp_page display_value="">c111c6ca2f1744103ef85ff62799b6d9</sp_page>
         <subheader>false</subheader>
         <sys_class_name>sp_container</sys_class_name>
         <sys_created_by>admin</sys_created_by>

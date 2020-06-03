@@ -51,7 +51,7 @@
         <update_guid_history>cf0e8f8ae5d74410f75c19e7ecf67fb5:-1589422842</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Alight Config Main - Container 2">fb5e83ca2fd744103ef85ff62799b60c</sys_audit_delete>
+        <sys_audit_delete display_value="">fb5e83ca2fd744103ef85ff62799b60c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 20:32:00</sys_created_on>

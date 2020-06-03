@@ -65,7 +65,7 @@
         <update_guid_history>1f6126ce785744103750444b6925703e:114869553,7d3166ce885744100420c614007a9fe0:-803106368</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Alight Configuration">2da1174e2fd744103ef85ff62799b6d1</sys_audit_delete>
+        <sys_audit_delete display_value="">2da1174e2fd744103ef85ff62799b6d1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 20:46:19</sys_created_on>

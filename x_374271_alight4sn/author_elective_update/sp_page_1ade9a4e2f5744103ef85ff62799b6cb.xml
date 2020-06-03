@@ -50,7 +50,7 @@
         <update_guid_history>16de9a4e80574410e187cc4c3745a6ce:73023940</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="alight_transfer">e75f528e2f5744103ef85ff62799b6de</sys_audit_delete>
+        <sys_audit_delete display_value="">e75f528e2f5744103ef85ff62799b6de</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 17:06:39</sys_created_on>

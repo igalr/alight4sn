@@ -55,7 +55,7 @@
         <update_guid_history>a541134ea0d74410b5a4c6823470837e:-55507731,ee21df0ef1d744107b1886cd08b2ab5f:481523114</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Call Treatment">b871934e2fd744103ef85ff62799b697</sys_audit_delete>
+        <sys_audit_delete display_value="">b871934e2fd744103ef85ff62799b697</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 20:45:27</sys_created_on>

@@ -40,6 +40,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
+        <encryption_context/>
         <file_name>favicon a.png</file_name>
         <hash>a512db9f40f7795f3190eaad1979dfc68e514833a21b56b4f843603bef32f315</hash>
         <image_height/>

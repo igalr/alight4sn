@@ -46,7 +46,7 @@
         <update_guid_history>ed0266ce45574410540e18182533f6f3:1534151964</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="3">b43c07122f5384103ef85ff62799b611</sys_audit_delete>
+        <sys_audit_delete display_value="">b43c07122f5384103ef85ff62799b611</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-04 15:01:00</sys_created_on>

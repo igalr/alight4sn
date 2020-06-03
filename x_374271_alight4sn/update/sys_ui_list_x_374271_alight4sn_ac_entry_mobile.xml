@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>arn_action</element>
-            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="e3045273373100103e1dea4873990e94">01db8e422f5744103ef85ff62799b6bc</list_id>
+            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="2d3062427d213300aadb74564bf59f43">01db8e422f5744103ef85ff62799b6bc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>customer_number</element>
-            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="e3045273373100103e1dea4873990e94">01db8e422f5744103ef85ff62799b6bc</list_id>
+            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="2d3062427d213300aadb74564bf59f43">01db8e422f5744103ef85ff62799b6bc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>description</element>
-            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="e3045273373100103e1dea4873990e94">01db8e422f5744103ef85ff62799b6bc</list_id>
+            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="2d3062427d213300aadb74564bf59f43">01db8e422f5744103ef85ff62799b6bc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>dialed_number</element>
-            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="e3045273373100103e1dea4873990e94">01db8e422f5744103ef85ff62799b6bc</list_id>
+            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="2d3062427d213300aadb74564bf59f43">01db8e422f5744103ef85ff62799b6bc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>ivr_entry_point</element>
-            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="e3045273373100103e1dea4873990e94">01db8e422f5744103ef85ff62799b6bc</list_id>
+            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="2d3062427d213300aadb74564bf59f43">01db8e422f5744103ef85ff62799b6bc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -78,7 +78,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>ivr_pre_flow</element>
-            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="e3045273373100103e1dea4873990e94">01db8e422f5744103ef85ff62799b6bc</list_id>
+            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="2d3062427d213300aadb74564bf59f43">01db8e422f5744103ef85ff62799b6bc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -93,7 +93,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>line_closed_flow</element>
-            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="e3045273373100103e1dea4873990e94">01db8e422f5744103ef85ff62799b6bc</list_id>
+            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="2d3062427d213300aadb74564bf59f43">01db8e422f5744103ef85ff62799b6bc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
@@ -108,7 +108,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>line_name</element>
-            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="e3045273373100103e1dea4873990e94">01db8e422f5744103ef85ff62799b6bc</list_id>
+            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="2d3062427d213300aadb74564bf59f43">01db8e422f5744103ef85ff62799b6bc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
@@ -123,7 +123,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>line_open_hours</element>
-            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="e3045273373100103e1dea4873990e94">01db8e422f5744103ef85ff62799b6bc</list_id>
+            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="2d3062427d213300aadb74564bf59f43">01db8e422f5744103ef85ff62799b6bc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
@@ -138,7 +138,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>pre_flow_id</element>
-            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="e3045273373100103e1dea4873990e94">01db8e422f5744103ef85ff62799b6bc</list_id>
+            <list_id display_value="x_374271_alight4sn_ac_entry" element="NULL" name="x_374271_alight4sn_ac_entry" parent="NULL" relationship="NULL" sys_domain="global" view="2d3062427d213300aadb74564bf59f43">01db8e422f5744103ef85ff62799b6bc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
@@ -175,7 +175,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-03-03 15:41:17</sys_updated_on>
             <sys_user/>
-            <view display_value="Mobile" name="Mobile">e3045273373100103e1dea4873990e94</view>
+            <view display_value="Mobile" name="Mobile">2d3062427d213300aadb74564bf59f43</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

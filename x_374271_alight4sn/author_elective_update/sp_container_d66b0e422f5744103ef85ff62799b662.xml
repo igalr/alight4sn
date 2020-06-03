@@ -51,7 +51,7 @@
         <update_guid_history>566b0e4260574410a5ce34e30be47263:1911608062</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Alight Entry Points - Container 1">cb8d46c22f5744103ef85ff62799b612</sys_audit_delete>
+        <sys_audit_delete display_value="">cb8d46c22f5744103ef85ff62799b612</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 15:48:47</sys_created_on>
