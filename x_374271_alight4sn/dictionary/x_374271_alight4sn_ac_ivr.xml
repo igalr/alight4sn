@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="AC IVR" max_length="40" name="x_374271_alight4sn_ac_ivr" sizeclass="58" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Action" max_length="40" name="action" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Description" max_length="300" name="description" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Flow" max_length="40" name="flow" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Intent" max_length="40" name="intent" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Label" max_length="40" name="label" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Next Path" max_length="40" name="next_path" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Path" max_length="40" name="path" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Reason" max_length="200" name="reason" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Subreason" max_length="200" name="subreason" type="string"/>
+    <element label="AC Call Flow" max_length="40" name="x_374271_alight4sn_ac_ivr" sizeclass="18" type="collection">
+        <element attributes="encode_utf8=false" choice="1" label="Action" max_length="32" name="action" type="string">
+            <choice>
+                <element inactive_on_update="false" label="first_flow" value="first_flow"/>
+                <element inactive_on_update="false" label="junk" value="junk"/>
+                <element inactive_on_update="false" label="menu" value="menu"/>
+                <element inactive_on_update="false" label="message" value="message"/>
+                <element inactive_on_update="false" label="queue" value="queue"/>
+                <element inactive_on_update="false" label="sys_flow" value="sys_flow"/>
+                <element inactive_on_update="false" label="user_flow" value="user_flow"/>
+                <element inactive_on_update="false" label="xfer" value="xfer"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="300" name="description" type="string"/>
+        <element label="Orig Flow" max_length="40" name="flow" type="string"/>
+        <element label="Flow" max_length="40" name="flow_x" reference="x_374271_alight4sn_ac_lookup_test" reference_qual="javascript:&quot;action=&quot; + current.action" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Intent" max_length="40" name="intent" type="string"/>
+        <element label="Label" max_length="40" name="label" type="string"/>
+        <element label="Next Path" max_length="40" name="next_path" type="string"/>
+        <element attributes="encode_utf8=false" label="Parent" max_length="32" name="parent" reference="x_374271_alight4sn_ac_ivr" type="reference"/>
+        <element display="true" label="Path" max_length="40" name="path" type="string"/>
+        <element label="Real Flow" max_length="40" name="real_flow" type="string"/>
+        <element label="Reason" max_length="40" name="reason" type="string"/>
+        <element label="Subreason" max_length="40" name="subreason" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+        <index name="index2">
+            <element name="action"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
     </element>
 </database>

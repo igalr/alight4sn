@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control">
+    <sys_ui_list_control action="DELETE">
+        <columns_condition/>
+        <edit_condition/>
+        <edit_default_filter/>
+        <edit_roles/>
+        <empty_condition/>
+        <filter_condition/>
+        <filter_roles/>
+        <hierarchical_lists>false</hierarchical_lists>
+        <label/>
+        <link_condition/>
+        <link_roles/>
+        <list_edit_insert_row>true</list_edit_insert_row>
+        <list_edit_ref_qual_tag/>
+        <list_edit_type/>
+        <name>x_374271_alight4sn_ac_ivr</name>
+        <new_condition/>
+        <new_roles/>
+        <omit_columns_if_empty>false</omit_columns_if_empty>
+        <omit_count>false</omit_count>
+        <omit_count_views>false</omit_count_views>
+        <omit_count_views_list/>
+        <omit_drilldown_link>false</omit_drilldown_link>
+        <omit_edit_button>false</omit_edit_button>
+        <omit_filters>false</omit_filters>
+        <omit_if_empty>false</omit_if_empty>
+        <omit_links>false</omit_links>
+        <omit_new_button>false</omit_new_button>
+        <related_list>x_374271_alight4sn_ac_ivr.parent</related_list>
+        <sys_class_name>sys_ui_list_control</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-01 17:06:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>882ed07cdb3110104735a9954b961945</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_374271_alight4sn_ac_ivr</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name>sys_ui_list_control_882ed07cdb3110104735a9954b961945</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-01 17:06:58</sys_updated_on>
+    </sys_ui_list_control>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</application>
+        <file_path/>
+        <instance_id>5b64224cdb4357406578f22ebf9619cf</instance_id>
+        <instance_name>dev62876</instance_name>
+        <name>sys_ui_list_control_882ed07cdb3110104735a9954b961945</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control"><sys_ui_list_control action="INSERT_OR_UPDATE"><columns_condition/><edit_condition/><edit_default_filter/><edit_roles/><empty_condition/><filter_condition/><filter_roles/><hierarchical_lists>false</hierarchical_lists><label/><link_condition/><link_roles/><list_edit_insert_row>true</list_edit_insert_row><list_edit_ref_qual_tag/><list_edit_type/><name>x_374271_alight4sn_ac_ivr</name><new_condition/><new_roles/><omit_columns_if_empty>false</omit_columns_if_empty><omit_count>false</omit_count><omit_count_views>false</omit_count_views><omit_count_views_list/><omit_drilldown_link>false</omit_drilldown_link><omit_edit_button>false</omit_edit_button><omit_filters>false</omit_filters><omit_if_empty>false</omit_if_empty><omit_links>false</omit_links><omit_new_button>false</omit_new_button><related_list>x_374271_alight4sn_ac_ivr.parent</related_list><sys_class_name>sys_ui_list_control</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-01 17:06:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>882ed07cdb3110104735a9954b961945</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_374271_alight4sn_ac_ivr</sys_name><sys_overrides display_value="">global</sys_overrides><sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package><sys_policy/><sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope><sys_update_name>sys_ui_list_control_882ed07cdb3110104735a9954b961945</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-01 17:06:58</sys_updated_on></sys_ui_list_control></record_update>]]></payload>
+        <payload_hash>1018007849</payload_hash>
+        <record_name>x_374271_alight4sn_ac_ivr</record_name>
+        <reverted_from/>
+        <source>01d32750dba010104735a9954b961915</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-01 17:06:58</sys_created_on>
+        <sys_id>5e3e507cdb3110104735a9954b961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1730b5889f90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-01 17:06:58</sys_updated_on>
+        <type>List Control</type>
+        <update_guid>963e507c073110104c18b4e09235e713</update_guid>
+        <update_guid_history>963e507c073110104c18b4e09235e713:1018007849</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-06 19:10:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list_control">sys_ui_list_control</sys_db_object>
+        <sys_id>1a7d0e23ae824e0c8b8f12ac323c7410</sys_id>
+        <sys_metadata>882ed07cdb3110104735a9954b961945</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_374271_alight4sn_ac_ivr</sys_name>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_parent display_value="">27b0da3b2f0300103ef85ff62799b692</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_scope_delete display_value="">09903dccdf5f4e8c81bfa9d2c636d0b9</sys_scope_delete>
+        <sys_update_name>sys_ui_list_control_882ed07cdb3110104735a9954b961945</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_control_882ed07cdb3110104735a9954b961945">5e3e507cdb3110104735a9954b961913</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-06 19:10:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

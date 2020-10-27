@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_user" label="AC User" max_length="40" name="x_374271_alight4sn_ac_user" sizeclass="0" type="collection">
+        <element label="Desk Phone Number" max_length="40" name="desk_number" type="phone_number_e164"/>
+        <element label="Enable Phone Rep" max_length="40" name="enable_phone" type="boolean"/>
+        <element label="Group/Team" max_length="40" name="group_team" type="string"/>
+        <element default="soft_phone" label="Phone Type" max_length="40" name="phone_type" type="string"/>
+        <element label="Somthing" max_length="40" name="something" type="string"/>
+    </element>
+</database>

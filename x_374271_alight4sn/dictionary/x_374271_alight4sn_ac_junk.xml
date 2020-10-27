@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="AC Junk" max_length="40" name="x_374271_alight4sn_ac_junk" sizeclass="0" type="collection">
-        <element default="Column name" label="First Column" max_length="40" name="first_column" type="string"/>
+    <element label="AC Junk" max_length="40" name="x_374271_alight4sn_ac_junk" sizeclass="7" type="collection">
+        <element label="Action" max_length="40" name="action" type="string"/>
+        <element dependent="flow" dependent_on_field="flow" label="Condition Test" max_length="200" name="condition_test" type="conditions" use_dependent_field="true"/>
+        <element label="Description" max_length="100" name="description" type="string"/>
+        <element label="Flow" max_length="40" name="flow" type="string"/>
+        <element label="Link" max_length="400" name="link" type="url"/>
+        <element label="Timezone" max_length="32" name="timezone" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="timezone"/>
+        </index>
     </element>
 </database>

@@ -1,0 +1,1472 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-orlando-12-11-2019__patch1-02-19-2020</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Translate message test</description>
+        <internal_name>junk_flow_2</internal_name>
+        <label_cache>[{"name":"c673647b-00b9-403c-bca5-afdd723378ff.translation","label":"1➛Translation","reference_display":"Translation","type":"object","base_type":"object","attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FDe975116fbe133300381fba4a2a4c4732","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c673647b-00b9-403c-bca5-afdd723378ff.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c673647b-00b9-403c-bca5-afdd723378ff.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true"}},{"name":"c673647b-00b9-403c-bca5-afdd723378ff.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true"}},{"name":"Updated_1.current.prompt","label":"Trigger➛AC Message Record➛Prompt","reference":"","reference_display":"Prompt","type":"string","base_type":"string","parent_table_name":"x_374271_alight4sn_ac_message","column_name":"prompt"},{"name":"f44f6982-b02f-4787-92f0-1beece088944.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f44f6982-b02f-4787-92f0-1beece088944.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛AC Message Record","reference":"x_374271_alight4sn_ac_message","reference_display":"AC Message","type":"reference","base_type":"reference","attributes":{}},{"name":"c673647b-00b9-403c-bca5-afdd723378ff.translation.translated_text","label":"1➛Translation➛Translated Text","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"6d50e100-46f3-4e88-84c1-88aba3ab56ac.translation","label":"1➛Translation","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"uiTypeLabel":"String (Full UTF-8)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string_full_utf8"}},{"name":"6d50e100-46f3-4e88-84c1-88aba3ab56ac.detected_language","label":"1➛Detected Language","reference_display":"Detected Language","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string"}},{"name":"6d50e100-46f3-4e88-84c1-88aba3ab56ac.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"6d50e100-46f3-4e88-84c1-88aba3ab56ac.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string"}},{"name":"6d50e100-46f3-4e88-84c1-88aba3ab56ac.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string"}},{"name":"8bbb6e32-0850-47ee-8f75-a67fedca7140.flows","label":"1➛Flows","reference_display":"Flows","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD375e4375424250103ef4c147eb90db2f","child_label":"flows_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"flows_child0","child_uiUniqueId":"11fe2573-b6dc-4f4d-b2f0-e928065ee3fe","uiUniqueId":"ab337486-e58e-4d28-822a-d663d8fa95f9"}}]</label_cache>
+        <latest_snapshot>ced07023db0250104735a9954b961907</latest_snapshot>
+        <master_snapshot>1d2d6cebdbce10104735a9954b96197e</master_snapshot>
+        <name>Junk flow 2</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>692d6cebdbce10104735a9954b9619cf</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:29:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>43ccecabdbce10104735a9954b9619af</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Junk flow 2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name>sys_hub_flow_43ccecabdbce10104735a9954b9619af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-24 13:52:23</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=43ccecabdbce10104735a9954b9619af"/>
+    <sys_variable_value action="DELETE" query="document_key=43ccecabdbce10104735a9954b9619af"/>
+    <sys_flow_record_trigger action="DELETE">
+        <active>true</active>
+        <condition table="x_374271_alight4sn_ac_message">promptVALCHANGES<item endquery="false" field="prompt" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>692d6cebdbce10104735a9954b9619cf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:50</sys_updated_on>
+        <table>x_374271_alight4sn_ac_message</table>
+    </sys_flow_record_trigger>
+    <sys_hub_flow_component action="DELETE" query="flow=43ccecabdbce10104735a9954b9619af^sys_idNOT INc0b2b463db0250104735a9954b961924,f8dda42fdbce10104735a9954b9619e3"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Flow X">7b5e0375db4250104735a9954b9619e2</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Junk flow 2">43ccecabdbce10104735a9954b9619af</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:55:23</sys_created_on>
+        <sys_id>c0b2b463db0250104735a9954b961924</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:55:23</sys_updated_on>
+        <ui_id>8bbb6e32-0850-47ee-8f75-a67fedca7140</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=c0b2b463db0250104735a9954b961924"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Junk flow 2">43ccecabdbce10104735a9954b9619af</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:34:09</sys_created_on>
+        <sys_id>f8dda42fdbce10104735a9954b9619e3</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:55:23</sys_updated_on>
+        <ui_id>f44f6982-b02f-4787-92f0-1beece088944</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=f8dda42fdbce10104735a9954b9619e3"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f8dda42fdbce10104735a9954b9619e3</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:34:09</sys_created_on>
+        <sys_id>38dda42fdbce10104735a9954b9619e5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:55:23</sys_updated_on>
+        <value/>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="DELETE" query="flow=43ccecabdbce10104735a9954b9619af^sys_idNOT INd02d6cebdbce10104735a9954b96190a"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Junk flow 2">43ccecabdbce10104735a9954b9619af</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:06</sys_created_on>
+        <sys_id>d02d6cebdbce10104735a9954b96190a</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:55:23</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=d02d6cebdbce10104735a9954b96190a"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d02d6cebdbce10104735a9954b96190a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:06</sys_created_on>
+        <sys_id>1c2d6cebdbce10104735a9954b96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:31:06</sys_updated_on>
+        <value>promptVALCHANGES</value>
+        <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d02d6cebdbce10104735a9954b96190a</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:06</sys_created_on>
+        <sys_id>582d6cebdbce10104735a9954b96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:31:06</sys_updated_on>
+        <value>every</value>
+        <variable display_value="">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d02d6cebdbce10104735a9954b96190a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:06</sys_created_on>
+        <sys_id>dc2d6cebdbce10104735a9954b96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:31:06</sys_updated_on>
+        <value>x_374271_alight4sn_ac_message</value>
+        <variable display_value="">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="DELETE" query="id=43ccecabdbce10104735a9954b9619af^sys_idNOT IN0fccecabdbce10104735a9954b9619af"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>43ccecabdbce10104735a9954b9619af</id>
+        <name>Junk flow 2</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:29:39</sys_created_on>
+        <sys_id>0fccecabdbce10104735a9954b9619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:29:39</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="DELETE" query="model=43ccecabdbce10104735a9954b9619af^sys_idNOT IN142d6cebdbce10104735a9954b961903,9c2d2cebdbce10104735a9954b9619fd,c02d6cabdbce10104735a9954b96192e"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Junk flow 2">43ccecabdbce10104735a9954b9619af</model>
+        <model_id>43ccecabdbce10104735a9954b9619af</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_43ccecabdbce10104735a9954b9619af</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:06</sys_created_on>
+        <sys_id>142d6cebdbce10104735a9954b961903</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:55:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD0cb2f023c7025010ed2420ce6da99e6e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Junk flow 2">43ccecabdbce10104735a9954b9619af</model>
+        <model_id>43ccecabdbce10104735a9954b9619af</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_43ccecabdbce10104735a9954b9619af</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:06</sys_created_on>
+        <sys_id>9c2d2cebdbce10104735a9954b9619fd</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:55:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Junk flow 2">43ccecabdbce10104735a9954b9619af</model>
+        <model_id>43ccecabdbce10104735a9954b9619af</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_43ccecabdbce10104735a9954b9619af</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:05</sys_created_on>
+        <sys_id>c02d6cabdbce10104735a9954b96192e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:55:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="DELETE" query="flow=43ccecabdbce10104735a9954b9619af^sys_idNOT INc0b2b463db0250104735a9954b961924,f8dda42fdbce10104735a9954b9619e3"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Flow X">7b5e0375db4250104735a9954b9619e2</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Junk flow 2">43ccecabdbce10104735a9954b9619af</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:55:23</sys_created_on>
+        <sys_id>c0b2b463db0250104735a9954b961924</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:55:23</sys_updated_on>
+        <ui_id>8bbb6e32-0850-47ee-8f75-a67fedca7140</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=c0b2b463db0250104735a9954b961924"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Junk flow 2">43ccecabdbce10104735a9954b9619af</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:34:09</sys_created_on>
+        <sys_id>f8dda42fdbce10104735a9954b9619e3</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:55:23</sys_updated_on>
+        <ui_id>f44f6982-b02f-4787-92f0-1beece088944</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=f8dda42fdbce10104735a9954b9619e3"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f8dda42fdbce10104735a9954b9619e3</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:34:09</sys_created_on>
+        <sys_id>38dda42fdbce10104735a9954b9619e5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:55:23</sys_updated_on>
+        <value/>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_43ccecabdbce10104735a9954b9619af^sys_idNOT IN502d6cebdbce10104735a9954b961902,902d6cebdbce10104735a9954b961907,d82d2cebdbce10104735a9954b9619fc"/>
+    <sys_documentation action="DELETE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_43ccecabdbce10104735a9954b9619af</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:06</sys_created_on>
+        <sys_id>502d6cebdbce10104735a9954b961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:31:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_43ccecabdbce10104735a9954b9619af</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:06</sys_created_on>
+        <sys_id>902d6cebdbce10104735a9954b961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:31:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_43ccecabdbce10104735a9954b9619af</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:06</sys_created_on>
+        <sys_id>d82d2cebdbce10104735a9954b9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:31:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=43ccecabdbce10104735a9954b9619af^sys_idNOT INe12d6cebdbce10104735a9954b9619d0"/>
+    <sys_flow_trigger_plan action="DELETE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"e12d6cebdbce10104735a9954b9619d0","name":"plan"}}</plan>
+        <plan_id>43ccecabdbce10104735a9954b9619af</plan_id>
+        <snapshot>ced07023db0250104735a9954b961907</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e12d6cebdbce10104735a9954b9619d0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:50</sys_updated_on>
+        <trigger display_value="">692d6cebdbce10104735a9954b9619cf</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Translate message test</description>
+        <internal_name>junk_flow_2</internal_name>
+        <label_cache>[{"name":"Updated_1.current.prompt","label":"Trigger➛AC Message Record➛Prompt","reference":"","reference_display":"Prompt","type":"string","base_type":"string","parent_table_name":"x_374271_alight4sn_ac_message","column_name":"prompt"},{"name":"c673647b-00b9-403c-bca5-afdd723378ff.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string"}},{"name":"c673647b-00b9-403c-bca5-afdd723378ff.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string"}},{"name":"c673647b-00b9-403c-bca5-afdd723378ff.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"c673647b-00b9-403c-bca5-afdd723378ff.translation","label":"1➛Translation","reference_display":"Translation","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDe975116fbe133300381fba4a2a4c4732","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object"}}]</label_cache>
+        <master>true</master>
+        <name>Junk flow 2</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Junk flow 2">43ccecabdbce10104735a9954b9619af</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1d2d6cebdbce10104735a9954b96197e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:49</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=1d2d6cebdbce10104735a9954b96197e"/>
+    <sys_variable_value action="DELETE" query="document_key=1d2d6cebdbce10104735a9954b96197e"/>
+    <sys_hub_flow_component action="DELETE" query="flow=1d2d6cebdbce10104735a9954b96197e^sys_idNOT IN92b0bcefdbce10104735a9954b961922,cadde42fdbce10104735a9954b9619bb"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Translate Text To Single Language">81dfdd1f73223300395108b24ff6a7c9</action_type>
+        <action_type_parent display_value="Translate Text To Single Language">ac30c64273a23300395108b24ff6a789</action_type_parent>
+        <comment/>
+        <compiled_snapshot>81dfdd1f73223300395108b24ff6a7c9</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Junk flow 2">1d2d6cebdbce10104735a9954b96197e</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:46:48</sys_created_on>
+        <sys_id>92b0bcefdbce10104735a9954b961922</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:49</sys_updated_on>
+        <ui_id>6d50e100-46f3-4e88-84c1-88aba3ab56ac</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=92b0bcefdbce10104735a9954b961922"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>92b0bcefdbce10104735a9954b961922</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:46:48</sys_created_on>
+        <sys_id>12b0bcefdbce10104735a9954b961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:48</sys_updated_on>
+        <value>fr</value>
+        <variable display_value="">c9dfdd1f73223300395108b24ff6a7cf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>92b0bcefdbce10104735a9954b961922</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:46:48</sys_created_on>
+        <sys_id>5eb0bcefdbce10104735a9954b961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:48</sys_updated_on>
+        <value>en</value>
+        <variable display_value="">5ddfdd1f73223300395108b24ff6a7d4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=92b0bcefdbce10104735a9954b961922"/>
+    <sys_element_mapping action="DELETE">
+        <field>source_language</field>
+        <id>92b0bcefdbce10104735a9954b961922</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:46:48</sys_created_on>
+        <sys_id>1ab0bcefdbce10104735a9954b961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_81dfdd1f73223300395108b24ff6a7c9</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>target_language</field>
+        <id>92b0bcefdbce10104735a9954b961922</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:46:48</sys_created_on>
+        <sys_id>dab0bcefdbce10104735a9954b961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_81dfdd1f73223300395108b24ff6a7c9</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>text</field>
+        <id>92b0bcefdbce10104735a9954b961922</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:46:48</sys_created_on>
+        <sys_id>56b0bcefdbce10104735a9954b961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_81dfdd1f73223300395108b24ff6a7c9</table>
+        <value>{{Updated_1.current.prompt}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Junk flow 2">1d2d6cebdbce10104735a9954b96197e</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:34:14</sys_created_on>
+        <sys_id>cadde42fdbce10104735a9954b9619bb</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:49</sys_updated_on>
+        <ui_id>f44f6982-b02f-4787-92f0-1beece088944</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=cadde42fdbce10104735a9954b9619bb"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cadde42fdbce10104735a9954b9619bb</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:34:14</sys_created_on>
+        <sys_id>06dde42fdbce10104735a9954b9619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:34:14</sys_updated_on>
+        <value>x_374271_alight4sn_ac_message</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=cadde42fdbce10104735a9954b9619bb"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>cadde42fdbce10104735a9954b9619bb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:34:14</sys_created_on>
+        <sys_id>cedde42fdbce10104735a9954b9619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:34:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>cadde42fdbce10104735a9954b9619bb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:34:14</sys_created_on>
+        <sys_id>0edde42fdbce10104735a9954b9619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:34:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>cadde42fdbce10104735a9954b9619bb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:34:14</sys_created_on>
+        <sys_id>82dde42fdbce10104735a9954b9619bd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>prompt_lang_2={{6d50e100-46f3-4e88-84c1-88aba3ab56ac.translation}}</value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="DELETE" query="flow=1d2d6cebdbce10104735a9954b96197e^sys_idNOT IN252d6cebdbce10104735a9954b9619b3"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Junk flow 2">1d2d6cebdbce10104735a9954b96197e</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:11</sys_created_on>
+        <sys_id>252d6cebdbce10104735a9954b9619b3</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:50</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=252d6cebdbce10104735a9954b9619b3"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>252d6cebdbce10104735a9954b9619b3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:11</sys_created_on>
+        <sys_id>2d2d6cebdbce10104735a9954b9619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:31:11</sys_updated_on>
+        <value>promptVALCHANGES</value>
+        <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>252d6cebdbce10104735a9954b9619b3</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:11</sys_created_on>
+        <sys_id>692d6cebdbce10104735a9954b9619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:31:11</sys_updated_on>
+        <value>every</value>
+        <variable display_value="">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>252d6cebdbce10104735a9954b9619b3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:11</sys_created_on>
+        <sys_id>ed2d6cebdbce10104735a9954b9619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:31:11</sys_updated_on>
+        <value>x_374271_alight4sn_ac_message</value>
+        <variable display_value="">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="DELETE" query="id=1d2d6cebdbce10104735a9954b96197e^sys_idNOT IN112d6cebdbce10104735a9954b96197f"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>1d2d6cebdbce10104735a9954b96197e</id>
+        <name>Junk flow 2</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:10</sys_created_on>
+        <sys_id>112d6cebdbce10104735a9954b96197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:31:10</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="DELETE" query="model=1d2d6cebdbce10104735a9954b96197e^sys_idNOT IN152d6cebdbce10104735a9954b9619a2,192d6cebdbce10104735a9954b961999,592d6cebdbce10104735a9954b961981"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Junk flow 2">1d2d6cebdbce10104735a9954b96197e</model>
+        <model_id>1d2d6cebdbce10104735a9954b96197e</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_1d2d6cebdbce10104735a9954b96197e</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:10</sys_created_on>
+        <sys_id>152d6cebdbce10104735a9954b9619a2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDd2b0bcefa3ce101075ad1c567e06a126,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Junk flow 2">1d2d6cebdbce10104735a9954b96197e</model>
+        <model_id>1d2d6cebdbce10104735a9954b96197e</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_1d2d6cebdbce10104735a9954b96197e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:10</sys_created_on>
+        <sys_id>192d6cebdbce10104735a9954b961999</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Junk flow 2">1d2d6cebdbce10104735a9954b96197e</model>
+        <model_id>1d2d6cebdbce10104735a9954b96197e</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_1d2d6cebdbce10104735a9954b96197e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:10</sys_created_on>
+        <sys_id>592d6cebdbce10104735a9954b961981</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="DELETE" query="flow=1d2d6cebdbce10104735a9954b96197e^sys_idNOT IN92b0bcefdbce10104735a9954b961922,cadde42fdbce10104735a9954b9619bb"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Translate Text To Single Language">81dfdd1f73223300395108b24ff6a7c9</action_type>
+        <action_type_parent display_value="Translate Text To Single Language">ac30c64273a23300395108b24ff6a789</action_type_parent>
+        <comment/>
+        <compiled_snapshot>81dfdd1f73223300395108b24ff6a7c9</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Junk flow 2">1d2d6cebdbce10104735a9954b96197e</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:46:48</sys_created_on>
+        <sys_id>92b0bcefdbce10104735a9954b961922</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:49</sys_updated_on>
+        <ui_id>6d50e100-46f3-4e88-84c1-88aba3ab56ac</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=92b0bcefdbce10104735a9954b961922"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>92b0bcefdbce10104735a9954b961922</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:46:48</sys_created_on>
+        <sys_id>12b0bcefdbce10104735a9954b961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:48</sys_updated_on>
+        <value>fr</value>
+        <variable display_value="">c9dfdd1f73223300395108b24ff6a7cf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>92b0bcefdbce10104735a9954b961922</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:46:48</sys_created_on>
+        <sys_id>5eb0bcefdbce10104735a9954b961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:48</sys_updated_on>
+        <value>en</value>
+        <variable display_value="">5ddfdd1f73223300395108b24ff6a7d4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=92b0bcefdbce10104735a9954b961922"/>
+    <sys_element_mapping action="DELETE">
+        <field>source_language</field>
+        <id>92b0bcefdbce10104735a9954b961922</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:46:48</sys_created_on>
+        <sys_id>1ab0bcefdbce10104735a9954b961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_81dfdd1f73223300395108b24ff6a7c9</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>target_language</field>
+        <id>92b0bcefdbce10104735a9954b961922</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:46:48</sys_created_on>
+        <sys_id>dab0bcefdbce10104735a9954b961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_81dfdd1f73223300395108b24ff6a7c9</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>text</field>
+        <id>92b0bcefdbce10104735a9954b961922</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:46:48</sys_created_on>
+        <sys_id>56b0bcefdbce10104735a9954b961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_81dfdd1f73223300395108b24ff6a7c9</table>
+        <value>{{Updated_1.current.prompt}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Junk flow 2">1d2d6cebdbce10104735a9954b96197e</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:34:14</sys_created_on>
+        <sys_id>cadde42fdbce10104735a9954b9619bb</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:49</sys_updated_on>
+        <ui_id>f44f6982-b02f-4787-92f0-1beece088944</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=cadde42fdbce10104735a9954b9619bb"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cadde42fdbce10104735a9954b9619bb</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:34:14</sys_created_on>
+        <sys_id>06dde42fdbce10104735a9954b9619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:34:14</sys_updated_on>
+        <value>x_374271_alight4sn_ac_message</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=cadde42fdbce10104735a9954b9619bb"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>cadde42fdbce10104735a9954b9619bb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:34:14</sys_created_on>
+        <sys_id>cedde42fdbce10104735a9954b9619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:34:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>cadde42fdbce10104735a9954b9619bb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:34:14</sys_created_on>
+        <sys_id>0edde42fdbce10104735a9954b9619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:34:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>cadde42fdbce10104735a9954b9619bb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:34:14</sys_created_on>
+        <sys_id>82dde42fdbce10104735a9954b9619bd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:46:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>prompt_lang_2={{6d50e100-46f3-4e88-84c1-88aba3ab56ac.translation}}</value>
+    </sys_element_mapping>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_1d2d6cebdbce10104735a9954b96197e^sys_idNOT IN912d6cebdbce10104735a9954b961986,d52d6cebdbce10104735a9954b96199e,dd2d6cebdbce10104735a9954b9619a6"/>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1d2d6cebdbce10104735a9954b96197e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:10</sys_created_on>
+        <sys_id>912d6cebdbce10104735a9954b961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:31:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1d2d6cebdbce10104735a9954b96197e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:10</sys_created_on>
+        <sys_id>d52d6cebdbce10104735a9954b96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:31:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1d2d6cebdbce10104735a9954b96197e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 17:31:10</sys_created_on>
+        <sys_id>dd2d6cebdbce10104735a9954b9619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:31:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</application>
+        <file_path/>
+        <instance_id>5b64224cdb4357406578f22ebf9619cf</instance_id>
+        <instance_name>dev62876</instance_name>
+        <name>sys_hub_flow_43ccecabdbce10104735a9954b9619af</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build&gt;glide-orlando-12-11-2019__patch1-02-19-2020&lt;/compiler_build&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description&gt;Translate message test&lt;/description&gt;&lt;internal_name&gt;junk_flow_2&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"c673647b-00b9-403c-bca5-afdd723378ff.translation","label":"1➛Translation","reference_display":"Translation","type":"object","base_type":"object","attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FDe975116fbe133300381fba4a2a4c4732","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c673647b-00b9-403c-bca5-afdd723378ff.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c673647b-00b9-403c-bca5-afdd723378ff.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true"}},{"name":"c673647b-00b9-403c-bca5-afdd723378ff.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true"}},{"name":"Updated_1.current.prompt","label":"Trigger➛AC Message Record➛Prompt","reference":"","reference_display":"Prompt","type":"string","base_type":"string","parent_table_name":"x_374271_alight4sn_ac_message","column_name":"prompt"},{"name":"f44f6982-b02f-4787-92f0-1beece088944.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f44f6982-b02f-4787-92f0-1beece088944.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛AC Message Record","reference":"x_374271_alight4sn_ac_message","reference_display":"AC Message","type":"reference","base_type":"reference","attributes":{}},{"name":"c673647b-00b9-403c-bca5-afdd723378ff.translation.translated_text","label":"1➛Translation➛Translated Text","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"6d50e100-46f3-4e88-84c1-88aba3ab56ac.translation","label":"1➛Translation","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"uiTypeLabel":"String (Full UTF-8)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string_full_utf8"}},{"name":"6d50e100-46f3-4e88-84c1-88aba3ab56ac.detected_language","label":"1➛Detected Language","reference_display":"Detected Language","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string"}},{"name":"6d50e100-46f3-4e88-84c1-88aba3ab56ac.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"6d50e100-46f3-4e88-84c1-88aba3ab56ac.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string"}},{"name":"6d50e100-46f3-4e88-84c1-88aba3ab56ac.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string"}},{"name":"8bbb6e32-0850-47ee-8f75-a67fedca7140.flows","label":"1➛Flows","reference_display":"Flows","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD375e4375424250103ef4c147eb90db2f","child_label":"flows_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"flows_child0","child_uiUniqueId":"11fe2573-b6dc-4f4d-b2f0-e928065ee3fe","uiUniqueId":"ab337486-e58e-4d28-822a-d663d8fa95f9"}}]&lt;/label_cache&gt;&lt;latest_snapshot&gt;ced07023db0250104735a9954b961907&lt;/latest_snapshot&gt;&lt;master_snapshot&gt;1d2d6cebdbce10104735a9954b96197e&lt;/master_snapshot&gt;&lt;name&gt;Junk flow 2&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;remote_trigger_id&gt;692d6cebdbce10104735a9954b9619cf&lt;/remote_trigger_id&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:29:39&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;43ccecabdbce10104735a9954b9619af&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;Junk flow 2&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Alight4SN" source="x_374271_alight4sn"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_43ccecabdbce10104735a9954b9619af&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-24 13:52:23&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=43ccecabdbce10104735a9954b9619af"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=43ccecabdbce10104735a9954b9619af"/&gt;&lt;sys_flow_record_trigger action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition table="x_374271_alight4sn_ac_message"&gt;promptVALCHANGES&lt;item endquery="false" field="prompt" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;/condition&gt;&lt;name/&gt;&lt;on_delete&gt;false&lt;/on_delete&gt;&lt;on_insert&gt;false&lt;/on_insert&gt;&lt;on_update&gt;true&lt;/on_update&gt;&lt;run_flow_in&gt;background&lt;/run_flow_in&gt;&lt;run_when_setting&gt;both&lt;/run_when_setting&gt;&lt;run_when_user_list/&gt;&lt;run_when_user_setting&gt;any&lt;/run_when_user_setting&gt;&lt;sys_class_name&gt;sys_flow_record_trigger&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;692d6cebdbce10104735a9954b9619cf&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:50&lt;/sys_updated_on&gt;&lt;table&gt;x_374271_alight4sn_ac_message&lt;/table&gt;&lt;/sys_flow_record_trigger&gt;&lt;sys_hub_flow_component action="delete_multiple" query="flow=43ccecabdbce10104735a9954b9619af^sys_idNOT INc0b2b463db0250104735a9954b961924,f8dda42fdbce10104735a9954b9619e3"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Flow X"&gt;7b5e0375db4250104735a9954b9619e2&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Junk flow 2"&gt;43ccecabdbce10104735a9954b9619af&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:55:23&lt;/sys_created_on&gt;&lt;sys_id&gt;c0b2b463db0250104735a9954b961924&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:55:23&lt;/sys_updated_on&gt;&lt;ui_id&gt;8bbb6e32-0850-47ee-8f75-a67fedca7140&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=c0b2b463db0250104735a9954b961924"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Junk flow 2"&gt;43ccecabdbce10104735a9954b9619af&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:34:09&lt;/sys_created_on&gt;&lt;sys_id&gt;f8dda42fdbce10104735a9954b9619e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:55:23&lt;/sys_updated_on&gt;&lt;ui_id&gt;f44f6982-b02f-4787-92f0-1beece088944&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=f8dda42fdbce10104735a9954b9619e3"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;f8dda42fdbce10104735a9954b9619e3&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:34:09&lt;/sys_created_on&gt;&lt;sys_id&gt;38dda42fdbce10104735a9954b9619e5&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:55:23&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=43ccecabdbce10104735a9954b9619af^sys_idNOT INd02d6cebdbce10104735a9954b96190a"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Junk flow 2"&gt;43ccecabdbce10104735a9954b9619af&lt;/flow&gt;&lt;name&gt;Updated&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_class_name&gt;sys_hub_trigger_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:06&lt;/sys_created_on&gt;&lt;sys_id&gt;d02d6cebdbce10104735a9954b96190a&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:55:23&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Updated"&gt;bb695e60c31322002841b63b12d3aea5&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=d02d6cebdbce10104735a9954b96190a"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;d02d6cebdbce10104735a9954b96190a&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:06&lt;/sys_created_on&gt;&lt;sys_id&gt;1c2d6cebdbce10104735a9954b96190a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:31:06&lt;/sys_updated_on&gt;&lt;value&gt;promptVALCHANGES&lt;/value&gt;&lt;variable display_value=""&gt;bb9adea0c31322002841b63b12d3ae67&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;d02d6cebdbce10104735a9954b96190a&lt;/document_key&gt;&lt;order&gt;101&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:06&lt;/sys_created_on&gt;&lt;sys_id&gt;582d6cebdbce10104735a9954b96190a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:31:06&lt;/sys_updated_on&gt;&lt;value&gt;every&lt;/value&gt;&lt;variable display_value=""&gt;c19523d8c31932002841b63b12d3aea1&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;d02d6cebdbce10104735a9954b96190a&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:06&lt;/sys_created_on&gt;&lt;sys_id&gt;dc2d6cebdbce10104735a9954b96190a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:31:06&lt;/sys_updated_on&gt;&lt;value&gt;x_374271_alight4sn_ac_message&lt;/value&gt;&lt;variable display_value=""&gt;1dda12e0c31322002841b63b12d3aea8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=43ccecabdbce10104735a9954b9619af^sys_idNOT IN0fccecabdbce10104735a9954b9619af"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;43ccecabdbce10104735a9954b9619af&lt;/id&gt;&lt;name&gt;Junk flow 2&lt;/name&gt;&lt;sys_class_name&gt;sys_flow_cat_variable_model&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:29:39&lt;/sys_created_on&gt;&lt;sys_id&gt;0fccecabdbce10104735a9954b9619af&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:29:39&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=43ccecabdbce10104735a9954b9619af^sys_idNOT IN142d6cebdbce10104735a9954b961903,9c2d2cebdbce10104735a9954b9619fd,c02d6cabdbce10104735a9954b96192e"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Junk flow 2"&gt;43ccecabdbce10104735a9954b9619af&lt;/model&gt;&lt;model_id&gt;43ccecabdbce10104735a9954b9619af&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_43ccecabdbce10104735a9954b9619af&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:06&lt;/sys_created_on&gt;&lt;sys_id&gt;142d6cebdbce10104735a9954b961903&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:55:23&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD0cb2f023c7025010ed2420ce6da99e6e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Junk flow 2"&gt;43ccecabdbce10104735a9954b9619af&lt;/model&gt;&lt;model_id&gt;43ccecabdbce10104735a9954b9619af&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_43ccecabdbce10104735a9954b9619af&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:06&lt;/sys_created_on&gt;&lt;sys_id&gt;9c2d2cebdbce10104735a9954b9619fd&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:55:23&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Junk flow 2"&gt;43ccecabdbce10104735a9954b9619af&lt;/model&gt;&lt;model_id&gt;43ccecabdbce10104735a9954b9619af&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_43ccecabdbce10104735a9954b9619af&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:05&lt;/sys_created_on&gt;&lt;sys_id&gt;c02d6cabdbce10104735a9954b96192e&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:55:23&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=43ccecabdbce10104735a9954b9619af^sys_idNOT INc0b2b463db0250104735a9954b961924,f8dda42fdbce10104735a9954b9619e3"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Flow X"&gt;7b5e0375db4250104735a9954b9619e2&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Junk flow 2"&gt;43ccecabdbce10104735a9954b9619af&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:55:23&lt;/sys_created_on&gt;&lt;sys_id&gt;c0b2b463db0250104735a9954b961924&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:55:23&lt;/sys_updated_on&gt;&lt;ui_id&gt;8bbb6e32-0850-47ee-8f75-a67fedca7140&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=c0b2b463db0250104735a9954b961924"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Junk flow 2"&gt;43ccecabdbce10104735a9954b9619af&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:34:09&lt;/sys_created_on&gt;&lt;sys_id&gt;f8dda42fdbce10104735a9954b9619e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:55:23&lt;/sys_updated_on&gt;&lt;ui_id&gt;f44f6982-b02f-4787-92f0-1beece088944&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=f8dda42fdbce10104735a9954b9619e3"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;f8dda42fdbce10104735a9954b9619e3&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:34:09&lt;/sys_created_on&gt;&lt;sys_id&gt;38dda42fdbce10104735a9954b9619e5&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:55:23&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value=""&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_43ccecabdbce10104735a9954b9619af^sys_idNOT IN502d6cebdbce10104735a9954b961902,902d6cebdbce10104735a9954b961907,d82d2cebdbce10104735a9954b9619fc"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_43ccecabdbce10104735a9954b9619af&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:06&lt;/sys_created_on&gt;&lt;sys_id&gt;502d6cebdbce10104735a9954b961902&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Alight4SN" source="x_374271_alight4sn"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:31:06&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_43ccecabdbce10104735a9954b9619af&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:06&lt;/sys_created_on&gt;&lt;sys_id&gt;902d6cebdbce10104735a9954b961907&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Alight4SN" source="x_374271_alight4sn"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:31:06&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_43ccecabdbce10104735a9954b9619af&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:06&lt;/sys_created_on&gt;&lt;sys_id&gt;d82d2cebdbce10104735a9954b9619fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Alight4SN" source="x_374271_alight4sn"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:31:06&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=43ccecabdbce10104735a9954b9619af^sys_idNOT INe12d6cebdbce10104735a9954b9619d0"/&gt;&lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;&lt;binding_strategy&gt;com.snc.process_flow.engine.binding.Every&lt;/binding_strategy&gt;&lt;plan&gt;{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"e12d6cebdbce10104735a9954b9619d0","name":"plan"}}&lt;/plan&gt;&lt;plan_id&gt;43ccecabdbce10104735a9954b9619af&lt;/plan_id&gt;&lt;snapshot&gt;ced07023db0250104735a9954b961907&lt;/snapshot&gt;&lt;sys_class_name&gt;sys_flow_trigger_plan&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;e12d6cebdbce10104735a9954b9619d0&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:50&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;692d6cebdbce10104735a9954b9619cf&lt;/trigger&gt;&lt;/sys_flow_trigger_plan&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description&gt;Translate message test&lt;/description&gt;&lt;internal_name&gt;junk_flow_2&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Updated_1.current.prompt","label":"Trigger➛AC Message Record➛Prompt","reference":"","reference_display":"Prompt","type":"string","base_type":"string","parent_table_name":"x_374271_alight4sn_ac_message","column_name":"prompt"},{"name":"c673647b-00b9-403c-bca5-afdd723378ff.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string"}},{"name":"c673647b-00b9-403c-bca5-afdd723378ff.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string"}},{"name":"c673647b-00b9-403c-bca5-afdd723378ff.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"c673647b-00b9-403c-bca5-afdd723378ff.translation","label":"1➛Translation","reference_display":"Translation","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDe975116fbe133300381fba4a2a4c4732","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object"}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;Junk flow 2&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="Junk flow 2"&gt;43ccecabdbce10104735a9954b9619af&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;1d2d6cebdbce10104735a9954b96197e&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:49&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1d2d6cebdbce10104735a9954b96197e"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=1d2d6cebdbce10104735a9954b96197e"/&gt;&lt;sys_hub_flow_component action="delete_multiple" query="flow=1d2d6cebdbce10104735a9954b96197e^sys_idNOT IN92b0bcefdbce10104735a9954b961922,cadde42fdbce10104735a9954b9619bb"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Translate Text To Single Language"&gt;81dfdd1f73223300395108b24ff6a7c9&lt;/action_type&gt;&lt;action_type_parent display_value="Translate Text To Single Language"&gt;ac30c64273a23300395108b24ff6a789&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;81dfdd1f73223300395108b24ff6a7c9&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Junk flow 2"&gt;1d2d6cebdbce10104735a9954b96197e&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:46:48&lt;/sys_created_on&gt;&lt;sys_id&gt;92b0bcefdbce10104735a9954b961922&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:49&lt;/sys_updated_on&gt;&lt;ui_id&gt;6d50e100-46f3-4e88-84c1-88aba3ab56ac&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=92b0bcefdbce10104735a9954b961922"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;92b0bcefdbce10104735a9954b961922&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:46:48&lt;/sys_created_on&gt;&lt;sys_id&gt;12b0bcefdbce10104735a9954b961924&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:48&lt;/sys_updated_on&gt;&lt;value&gt;fr&lt;/value&gt;&lt;variable display_value=""&gt;c9dfdd1f73223300395108b24ff6a7cf&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;92b0bcefdbce10104735a9954b961922&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:46:48&lt;/sys_created_on&gt;&lt;sys_id&gt;5eb0bcefdbce10104735a9954b961923&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:48&lt;/sys_updated_on&gt;&lt;value&gt;en&lt;/value&gt;&lt;variable display_value=""&gt;5ddfdd1f73223300395108b24ff6a7d4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=92b0bcefdbce10104735a9954b961922"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;source_language&lt;/field&gt;&lt;id&gt;92b0bcefdbce10104735a9954b961922&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:46:48&lt;/sys_created_on&gt;&lt;sys_id&gt;1ab0bcefdbce10104735a9954b961923&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_81dfdd1f73223300395108b24ff6a7c9&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;target_language&lt;/field&gt;&lt;id&gt;92b0bcefdbce10104735a9954b961922&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:46:48&lt;/sys_created_on&gt;&lt;sys_id&gt;dab0bcefdbce10104735a9954b961923&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_81dfdd1f73223300395108b24ff6a7c9&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;text&lt;/field&gt;&lt;id&gt;92b0bcefdbce10104735a9954b961922&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:46:48&lt;/sys_created_on&gt;&lt;sys_id&gt;56b0bcefdbce10104735a9954b961923&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_81dfdd1f73223300395108b24ff6a7c9&lt;/table&gt;&lt;value&gt;{{Updated_1.current.prompt}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Junk flow 2"&gt;1d2d6cebdbce10104735a9954b96197e&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:34:14&lt;/sys_created_on&gt;&lt;sys_id&gt;cadde42fdbce10104735a9954b9619bb&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:49&lt;/sys_updated_on&gt;&lt;ui_id&gt;f44f6982-b02f-4787-92f0-1beece088944&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=cadde42fdbce10104735a9954b9619bb"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;cadde42fdbce10104735a9954b9619bb&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:34:14&lt;/sys_created_on&gt;&lt;sys_id&gt;06dde42fdbce10104735a9954b9619bd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:34:14&lt;/sys_updated_on&gt;&lt;value&gt;x_374271_alight4sn_ac_message&lt;/value&gt;&lt;variable display_value=""&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=cadde42fdbce10104735a9954b9619bb"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;cadde42fdbce10104735a9954b9619bb&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:34:14&lt;/sys_created_on&gt;&lt;sys_id&gt;cedde42fdbce10104735a9954b9619bc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:34:14&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{Updated_1.current}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;cadde42fdbce10104735a9954b9619bb&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:34:14&lt;/sys_created_on&gt;&lt;sys_id&gt;0edde42fdbce10104735a9954b9619bc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:34:14&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;cadde42fdbce10104735a9954b9619bb&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:34:14&lt;/sys_created_on&gt;&lt;sys_id&gt;82dde42fdbce10104735a9954b9619bd&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;prompt_lang_2={{6d50e100-46f3-4e88-84c1-88aba3ab56ac.translation}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=1d2d6cebdbce10104735a9954b96197e^sys_idNOT IN252d6cebdbce10104735a9954b9619b3"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Junk flow 2"&gt;1d2d6cebdbce10104735a9954b96197e&lt;/flow&gt;&lt;name&gt;Updated&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_class_name&gt;sys_hub_trigger_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:11&lt;/sys_created_on&gt;&lt;sys_id&gt;252d6cebdbce10104735a9954b9619b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:50&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Updated"&gt;bb695e60c31322002841b63b12d3aea5&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=252d6cebdbce10104735a9954b9619b3"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;252d6cebdbce10104735a9954b9619b3&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:11&lt;/sys_created_on&gt;&lt;sys_id&gt;2d2d6cebdbce10104735a9954b9619b4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:31:11&lt;/sys_updated_on&gt;&lt;value&gt;promptVALCHANGES&lt;/value&gt;&lt;variable display_value=""&gt;bb9adea0c31322002841b63b12d3ae67&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;252d6cebdbce10104735a9954b9619b3&lt;/document_key&gt;&lt;order&gt;101&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:11&lt;/sys_created_on&gt;&lt;sys_id&gt;692d6cebdbce10104735a9954b9619b4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:31:11&lt;/sys_updated_on&gt;&lt;value&gt;every&lt;/value&gt;&lt;variable display_value=""&gt;c19523d8c31932002841b63b12d3aea1&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;252d6cebdbce10104735a9954b9619b3&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:11&lt;/sys_created_on&gt;&lt;sys_id&gt;ed2d6cebdbce10104735a9954b9619b4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:31:11&lt;/sys_updated_on&gt;&lt;value&gt;x_374271_alight4sn_ac_message&lt;/value&gt;&lt;variable display_value=""&gt;1dda12e0c31322002841b63b12d3aea8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=1d2d6cebdbce10104735a9954b96197e^sys_idNOT IN112d6cebdbce10104735a9954b96197f"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;1d2d6cebdbce10104735a9954b96197e&lt;/id&gt;&lt;name&gt;Junk flow 2&lt;/name&gt;&lt;sys_class_name&gt;sys_flow_cat_variable_model&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:10&lt;/sys_created_on&gt;&lt;sys_id&gt;112d6cebdbce10104735a9954b96197f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:31:10&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=1d2d6cebdbce10104735a9954b96197e^sys_idNOT IN152d6cebdbce10104735a9954b9619a2,192d6cebdbce10104735a9954b961999,592d6cebdbce10104735a9954b961981"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Junk flow 2"&gt;1d2d6cebdbce10104735a9954b96197e&lt;/model&gt;&lt;model_id&gt;1d2d6cebdbce10104735a9954b96197e&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_1d2d6cebdbce10104735a9954b96197e&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:10&lt;/sys_created_on&gt;&lt;sys_id&gt;152d6cebdbce10104735a9954b9619a2&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:48&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDd2b0bcefa3ce101075ad1c567e06a126,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Junk flow 2"&gt;1d2d6cebdbce10104735a9954b96197e&lt;/model&gt;&lt;model_id&gt;1d2d6cebdbce10104735a9954b96197e&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_1d2d6cebdbce10104735a9954b96197e&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:10&lt;/sys_created_on&gt;&lt;sys_id&gt;192d6cebdbce10104735a9954b961999&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:48&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Junk flow 2"&gt;1d2d6cebdbce10104735a9954b96197e&lt;/model&gt;&lt;model_id&gt;1d2d6cebdbce10104735a9954b96197e&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_1d2d6cebdbce10104735a9954b96197e&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:10&lt;/sys_created_on&gt;&lt;sys_id&gt;592d6cebdbce10104735a9954b961981&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:48&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=1d2d6cebdbce10104735a9954b96197e^sys_idNOT IN92b0bcefdbce10104735a9954b961922,cadde42fdbce10104735a9954b9619bb"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Translate Text To Single Language"&gt;81dfdd1f73223300395108b24ff6a7c9&lt;/action_type&gt;&lt;action_type_parent display_value="Translate Text To Single Language"&gt;ac30c64273a23300395108b24ff6a789&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;81dfdd1f73223300395108b24ff6a7c9&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Junk flow 2"&gt;1d2d6cebdbce10104735a9954b96197e&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:46:48&lt;/sys_created_on&gt;&lt;sys_id&gt;92b0bcefdbce10104735a9954b961922&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:49&lt;/sys_updated_on&gt;&lt;ui_id&gt;6d50e100-46f3-4e88-84c1-88aba3ab56ac&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=92b0bcefdbce10104735a9954b961922"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;92b0bcefdbce10104735a9954b961922&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:46:48&lt;/sys_created_on&gt;&lt;sys_id&gt;12b0bcefdbce10104735a9954b961924&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:48&lt;/sys_updated_on&gt;&lt;value&gt;fr&lt;/value&gt;&lt;variable display_value=""&gt;c9dfdd1f73223300395108b24ff6a7cf&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;92b0bcefdbce10104735a9954b961922&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:46:48&lt;/sys_created_on&gt;&lt;sys_id&gt;5eb0bcefdbce10104735a9954b961923&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:48&lt;/sys_updated_on&gt;&lt;value&gt;en&lt;/value&gt;&lt;variable display_value=""&gt;5ddfdd1f73223300395108b24ff6a7d4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=92b0bcefdbce10104735a9954b961922"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;source_language&lt;/field&gt;&lt;id&gt;92b0bcefdbce10104735a9954b961922&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:46:48&lt;/sys_created_on&gt;&lt;sys_id&gt;1ab0bcefdbce10104735a9954b961923&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_81dfdd1f73223300395108b24ff6a7c9&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;target_language&lt;/field&gt;&lt;id&gt;92b0bcefdbce10104735a9954b961922&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:46:48&lt;/sys_created_on&gt;&lt;sys_id&gt;dab0bcefdbce10104735a9954b961923&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_81dfdd1f73223300395108b24ff6a7c9&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;text&lt;/field&gt;&lt;id&gt;92b0bcefdbce10104735a9954b961922&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:46:48&lt;/sys_created_on&gt;&lt;sys_id&gt;56b0bcefdbce10104735a9954b961923&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_81dfdd1f73223300395108b24ff6a7c9&lt;/table&gt;&lt;value&gt;{{Updated_1.current.prompt}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Junk flow 2"&gt;1d2d6cebdbce10104735a9954b96197e&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:34:14&lt;/sys_created_on&gt;&lt;sys_id&gt;cadde42fdbce10104735a9954b9619bb&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:49&lt;/sys_updated_on&gt;&lt;ui_id&gt;f44f6982-b02f-4787-92f0-1beece088944&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=cadde42fdbce10104735a9954b9619bb"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;cadde42fdbce10104735a9954b9619bb&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:34:14&lt;/sys_created_on&gt;&lt;sys_id&gt;06dde42fdbce10104735a9954b9619bd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:34:14&lt;/sys_updated_on&gt;&lt;value&gt;x_374271_alight4sn_ac_message&lt;/value&gt;&lt;variable display_value=""&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=cadde42fdbce10104735a9954b9619bb"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;cadde42fdbce10104735a9954b9619bb&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:34:14&lt;/sys_created_on&gt;&lt;sys_id&gt;cedde42fdbce10104735a9954b9619bc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:34:14&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{Updated_1.current}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;cadde42fdbce10104735a9954b9619bb&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:34:14&lt;/sys_created_on&gt;&lt;sys_id&gt;0edde42fdbce10104735a9954b9619bc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:34:14&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;cadde42fdbce10104735a9954b9619bb&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:34:14&lt;/sys_created_on&gt;&lt;sys_id&gt;82dde42fdbce10104735a9954b9619bd&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:46:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;prompt_lang_2={{6d50e100-46f3-4e88-84c1-88aba3ab56ac.translation}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_1d2d6cebdbce10104735a9954b96197e^sys_idNOT IN912d6cebdbce10104735a9954b961986,d52d6cebdbce10104735a9954b96199e,dd2d6cebdbce10104735a9954b9619a6"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_1d2d6cebdbce10104735a9954b96197e&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:10&lt;/sys_created_on&gt;&lt;sys_id&gt;912d6cebdbce10104735a9954b961986&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Alight4SN" source="x_374271_alight4sn"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:31:10&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_1d2d6cebdbce10104735a9954b96197e&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:10&lt;/sys_created_on&gt;&lt;sys_id&gt;d52d6cebdbce10104735a9954b96199e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Alight4SN" source="x_374271_alight4sn"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:31:10&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_1d2d6cebdbce10104735a9954b96197e&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-22 17:31:10&lt;/sys_created_on&gt;&lt;sys_id&gt;dd2d6cebdbce10104735a9954b9619a6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Alight4SN" source="x_374271_alight4sn"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alight4SN"&gt;611c8e372f0300103ef85ff62799b6ca&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-22 17:31:10&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-152847376</payload_hash>
+        <record_name>Junk flow 2</record_name>
+        <reverted_from/>
+        <source>01d32750dba010104735a9954b961915</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-24 13:52:24</sys_created_on>
+        <sys_id>104e4680db1210104735a9954b961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1738118ab7e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-24 13:52:24</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>d44e4680811210105fa4683b4ee35652</update_guid>
+        <update_guid_history>d44e4680811210105fa4683b4ee35652:-152847376,58b2b4630a02501092c27601c5842b60:1532806152,8bb0bcef58ce1010b6881c8ae6169bd5:1756496689,46b07cef70ce1010f100cd2adf3360c2:-1405828421,d1b07cefefce1010982a393ce28b6644:-254779426,37a03cef93ce10101eaedbb5db461a16:1106754178,7edd282fe8ce1010af3232389e08084d:-575474221,3ddde42fdfce1010a5fd4a744de9ad73:281810489,01dde42f11ce101091cf7b629bc1011c:-1790379519,7d2dacebf2ce1010ea92297b12cf9920:531395657,552d6cebadce1010f060e5f78d2ac067:235704344,e42d6ceba4ce10102f50b7ca2b3e1124:1937381449,83ccecab12ce1010079ddc1f5adf04b3:1252840308</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-24 13:53:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>0ae5205bcbd6409e8aa543859bfe74c4</sys_id>
+        <sys_metadata>43ccecabdbce10104735a9954b9619af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Junk flow 2</sys_name>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_scope_delete display_value="">09903dccdf5f4e8c81bfa9d2c636d0b9</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_43ccecabdbce10104735a9954b9619af</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_43ccecabdbce10104735a9954b9619af">104e4680db1210104735a9954b961953</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-24 13:53:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

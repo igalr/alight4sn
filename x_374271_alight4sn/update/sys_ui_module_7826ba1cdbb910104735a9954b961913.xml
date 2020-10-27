@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="AC User">f826ba1cdbb910104735a9954b961910</application>
+        <filter/>
+        <name>AC Users</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_374271_alight4sn.ac_user_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 14:53:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7826ba1cdbb910104735a9954b961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AC Users</sys_name>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name>sys_ui_module_7826ba1cdbb910104735a9954b961913</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 14:53:45</sys_updated_on>
+        <table>x_374271_alight4sn_ac_user</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

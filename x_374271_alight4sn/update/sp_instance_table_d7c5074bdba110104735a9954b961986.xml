@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">47c5074bdba110104735a9954b961984</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition junk">cbc507c7dba110104735a9954b961902</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-26 18:49:46</sys_created_on>
+        <sys_id>d7c5074bdba110104735a9954b961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name>sp_instance_table_d7c5074bdba110104735a9954b961986</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 18:49:46</sys_updated_on>
+        <table/>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=d7c5074bdba110104735a9954b961986"/>
+</record_update>

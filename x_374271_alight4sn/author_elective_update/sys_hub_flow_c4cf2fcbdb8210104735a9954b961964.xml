@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>If the IVR action changes, the flow will no longer be valid.  This flow will clear it.</description>
+        <internal_name>ivr_action_change_clears_flow</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>IVR action change clears flow</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-21 18:24:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c4cf2fcbdb8210104735a9954b961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IVR action change clears flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name>sys_hub_flow_c4cf2fcbdb8210104735a9954b961964</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-21 18:24:27</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=c4cf2fcbdb8210104735a9954b961964"/>
+    <sys_variable_value action="DELETE" query="document_key=c4cf2fcbdb8210104735a9954b961964"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=c4cf2fcbdb8210104735a9954b961964^sys_idNOT IN44cf2fcbdb8210104735a9954b961965"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>c4cf2fcbdb8210104735a9954b961964</id>
+        <name>IVR action change clears flow</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-21 18:24:27</sys_created_on>
+        <sys_id>44cf2fcbdb8210104735a9954b961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-21 18:24:27</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</application>
+        <file_path/>
+        <instance_id>5b64224cdb4357406578f22ebf9619cf</instance_id>
+        <instance_name>dev62876</instance_name>
+        <name>sys_hub_flow_c4cf2fcbdb8210104735a9954b961964</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description>If the IVR action changes, the flow will no longer be valid.  This flow will clear it.</description><internal_name>ivr_action_change_clears_flow</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>IVR action change clears flow</name><natlang/><outputs/><remote_trigger_id/><run_as>user</run_as><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-21 18:24:27</sys_created_on><sys_domain>global</sys_domain><sys_id>c4cf2fcbdb8210104735a9954b961964</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IVR action change clears flow</sys_name><sys_overrides/><sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package><sys_policy/><sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope><sys_update_name>sys_hub_flow_c4cf2fcbdb8210104735a9954b961964</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-21 18:24:27</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=c4cf2fcbdb8210104735a9954b961964"/><sys_variable_value action="delete_multiple" query="document_key=c4cf2fcbdb8210104735a9954b961964"/><sys_flow_cat_variable_model action="delete_multiple" query="id=c4cf2fcbdb8210104735a9954b961964^sys_idNOT IN44cf2fcbdb8210104735a9954b961965"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>c4cf2fcbdb8210104735a9954b961964</id><name>IVR action change clears flow</name><sys_class_name>sys_flow_cat_variable_model</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-21 18:24:27</sys_created_on><sys_id>44cf2fcbdb8210104735a9954b961965</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package/><sys_policy/><sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope><sys_update_name/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-21 18:24:27</sys_updated_on></sys_flow_cat_variable_model></record_update>]]></payload>
+        <payload_hash>-839085625</payload_hash>
+        <record_name>IVR action change clears flow</record_name>
+        <reverted_from/>
+        <source>01d32750dba010104735a9954b961915</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-21 18:24:27</sys_created_on>
+        <sys_id>40cf2fcbdb8210104735a9954b961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173729ea90f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-21 18:24:27</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>88cf2fcbfa821010f856739bfc30b668</update_guid>
+        <update_guid_history>88cf2fcbfa821010f856739bfc30b668:-839085625</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-21 18:28:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>d40bbeba73e74ae1b7f87990689096f9</sys_id>
+        <sys_metadata>c4cf2fcbdb8210104735a9954b961964</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IVR action change clears flow</sys_name>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_scope_delete display_value="">09903dccdf5f4e8c81bfa9d2c636d0b9</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_c4cf2fcbdb8210104735a9954b961964</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_c4cf2fcbdb8210104735a9954b961964">40cf2fcbdb8210104735a9954b961969</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-21 18:28:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

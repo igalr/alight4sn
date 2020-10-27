@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="AC Entry" max_length="40" name="x_374271_alight4sn_ac_entry" sizeclass="6" type="collection">
+    <element label="AC Entry" max_length="40" name="x_374271_alight4sn_ac_entry" sizeclass="2" type="collection">
         <element attributes="edge_encryption_enabled=true" label="ARN Action" max_length="40" name="arn_action" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Customer Number" max_length="40" name="customer_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="200" name="description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Dialed Number" max_length="40" name="dialed_number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="IVR Entry Point" max_length="40" name="ivr_entry_point" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Call Flow Entry Point" max_length="40" name="ivr_entry_point" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="IVR Pre Flow" max_length="40" name="ivr_pre_flow" type="choice">
             <choice>
                 <element inactive_on_update="false" label="yes" sequence="0" value="yes"/>

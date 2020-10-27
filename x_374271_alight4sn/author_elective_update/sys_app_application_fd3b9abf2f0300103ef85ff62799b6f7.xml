@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>Advanced Voice and Contact Center for ServiceNow</description>
+        <device_type>browser</device_type>
+        <hint>Advanced Voice and Contact Center for ServiceNow</hint>
+        <name/>
+        <order/>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-25 17:02:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fd3b9abf2f0300103ef85ff62799b6f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alight4SN</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name>sys_app_application_fd3b9abf2f0300103ef85ff62799b6f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-25 17:02:11</sys_updated_on>
+        <title>Alight4SN</title>
+        <view_name/>
+    </sys_app_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</application>
+        <file_path/>
+        <instance_id>5b64224cdb4357406578f22ebf9619cf</instance_id>
+        <instance_name>dev62876</instance_name>
+        <name>sys_app_application_fd3b9abf2f0300103ef85ff62799b6f7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>Advanced Voice and Contact Center for ServiceNow</description>
+        <device_type>browser</device_type>
+        <hint>Advanced Voice and Contact Center for ServiceNow</hint>
+        <name/>
+        <order/>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-25 17:02:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fd3b9abf2f0300103ef85ff62799b6f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alight4SN</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name>sys_app_application_fd3b9abf2f0300103ef85ff62799b6f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-25 17:02:11</sys_updated_on>
+        <title>Alight4SN</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>]]></payload>
+        <payload_hash>-300928341</payload_hash>
+        <record_name>Alight4SN</record_name>
+        <reverted_from/>
+        <source>6ef26b90dba010104735a9954b9619c1</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-29 14:52:00</sys_created_on>
+        <sys_id>3223afd0dba010104735a9954b9619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171c66c528a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-29 14:52:00</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>fe23afd0cda01010fbc00ad30a9532d1</update_guid>
+        <update_guid_history>fe23afd0cda01010fbc00ad30a9532d1:-300928341</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Alight4SN">d196e116db3110104735a9954b96193e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-06 14:14:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>790631c360084e398401b2fc200d9009</sys_id>
+        <sys_metadata>fd3b9abf2f0300103ef85ff62799b6f7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alight4SN</sys_name>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_scope_delete display_value="">09903dccdf5f4e8c81bfa9d2c636d0b9</sys_scope_delete>
+        <sys_update_name>sys_app_application_fd3b9abf2f0300103ef85ff62799b6f7</sys_update_name>
+        <sys_update_version display_value="sys_app_application_fd3b9abf2f0300103ef85ff62799b6f7">3223afd0dba010104735a9954b9619d2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-06 14:14:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

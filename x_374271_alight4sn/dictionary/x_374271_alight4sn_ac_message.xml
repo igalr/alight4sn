@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="AC Message" max_length="40" name="x_374271_alight4sn_ac_message" sizeclass="3" type="collection">
-        <element label="Description" max_length="300" name="description" type="string"/>
-        <element label="Message" max_length="50" name="message" type="string"/>
-        <element label="Prompt" max_length="500" name="prompt" type="string"/>
+        <element label="Description" mandatory="true" max_length="300" name="description" type="string"/>
+        <element label="Message" mandatory="true" max_length="50" name="message" type="string"/>
+        <element label="Prompt" mandatory="true" max_length="500" name="prompt" type="string"/>
         <element label="Prompt Lang 2" max_length="500" name="prompt_lang_2" type="string"/>
         <element label="Prompt Lang 3" max_length="500" name="prompt_lang_3" type="string"/>
     </element>

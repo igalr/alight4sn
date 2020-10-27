@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="x_374271_alight4sn_ac_ivr" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="AC IVR - Default view" name="x_374271_alight4sn_ac_ivr" related_list="NULL" sys_domain="global" view="Default view">23fd583cdb3110104735a9954b961977</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_374271_alight4sn_ac_ivr.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-01 17:05:57</sys_created_on>
+            <sys_id>abfd583cdb3110104735a9954b961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-01 17:05:57</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>AC IVR - Default view</calculated_name>
+            <filter/>
+            <name>x_374271_alight4sn_ac_ivr</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-01 17:05:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23fd583cdb3110104735a9954b961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>AC IVR - Default view</sys_name>
+            <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+            <sys_update_name>sys_ui_related_x_374271_alight4sn_ac_ivr_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-01 17:05:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</application>
+        <file_path/>
+        <instance_id>5b64224cdb4357406578f22ebf9619cf</instance_id>
+        <instance_name>dev62876</instance_name>
+        <name>sys_ui_related_x_374271_alight4sn_ac_ivr_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="x_374271_alight4sn_ac_ivr" version="2" view=""><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="AC IVR - Default view" name="x_374271_alight4sn_ac_ivr" related_list="NULL" sys_domain="global" view="Default view">23fd583cdb3110104735a9954b961977</list_id><order_by/><position>0</position><related_list>x_374271_alight4sn_ac_ivr.parent</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-01 17:05:57</sys_created_on><sys_id>abfd583cdb3110104735a9954b961977</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-01 17:05:57</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>AC IVR - Default view</calculated_name><filter/><name>x_374271_alight4sn_ac_ivr</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-01 17:05:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>23fd583cdb3110104735a9954b961977</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AC IVR - Default view</sys_name><sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package><sys_policy/><sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope><sys_update_name>sys_ui_related_x_374271_alight4sn_ac_ivr_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-01 17:05:57</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+        <payload_hash>1156847498</payload_hash>
+        <record_name>AC IVR</record_name>
+        <reverted_from/>
+        <source>01d32750dba010104735a9954b961915</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-01 17:05:57</sys_created_on>
+        <sys_id>2bfd583cdb3110104735a9954b961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1730b579cdd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-01 17:05:57</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>affd583cc13110101f716d4bd4a71378</update_guid>
+        <update_guid_history>affd583cc13110101f716d4bd4a71378:1156847498,f1eddc3ca7311010ec64ad8396051e32:2062744972</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-06 19:10:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>060e6c5659424e7e80f344a2e1650221</sys_id>
+        <sys_metadata>23fd583cdb3110104735a9954b961977</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AC IVR - Default view</sys_name>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_parent display_value="">27b0da3b2f0300103ef85ff62799b692</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_scope_delete display_value="">09903dccdf5f4e8c81bfa9d2c636d0b9</sys_scope_delete>
+        <sys_update_name>sys_ui_related_x_374271_alight4sn_ac_ivr_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_x_374271_alight4sn_ac_ivr_null">2bfd583cdb3110104735a9954b961979</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-06 19:10:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_374271_alight4sn.ac_lookup_test_user" name="x_374271_alight4sn.ac_lookup_test_user">43a16e35dbce10104735a9954b96192c</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-17 15:30:55</sys_created_on>
+        <sys_id>5fa166b5dbce10104735a9954b961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>43a16e35dbce10104735a9954b96192c</sys_name>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name>sys_embedded_help_role_5fa166b5dbce10104735a9954b961954</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-17 15:30:55</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="AC Lookup" max_length="40" name="x_374271_alight4sn_ac_lookup_test" sizeclass="27" type="collection">
+        <element label="Action" max_length="40" name="action" type="string_full_utf8"/>
+        <element label="Description" max_length="300" name="description" type="string"/>
+        <element display="true" label="Flow" max_length="40" name="flow_x" type="string"/>
+    </element>
+</database>

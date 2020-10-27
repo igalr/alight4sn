@@ -2,8 +2,10 @@
     <element label="AC Queue" max_length="40" name="x_374271_alight4sn_ac_queue" sizeclass="3" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Call Record" max_length="40" name="call_record" type="choice">
             <choice>
-                <element inactive_on_update="false" label="None" sequence="0" value="None"/>
-                <element inactive_on_update="false" label="Representative" sequence="0" value="Representative"/>
+                <element inactive_on_update="false" label="Both rep and customer" value="both"/>
+                <element inactive_on_update="false" label="Customer" value="customer"/>
+                <element inactive_on_update="false" label="None" sequence="0" value="none"/>
+                <element inactive_on_update="false" label="Representative" sequence="0" value="agent"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="default" label="Customer on Hold Treatment" max_length="40" name="customer_on_hold_treatment" type="choice">

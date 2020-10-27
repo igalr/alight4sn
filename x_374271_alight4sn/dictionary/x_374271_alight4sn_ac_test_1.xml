@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="AC test 1" max_length="40" name="x_374271_alight4sn_ac_test_1" sizeclass="5" type="collection">
+        <element label="Real Flow" max_length="40" name="real_flow" type="string"/>
+    </element>
+</database>

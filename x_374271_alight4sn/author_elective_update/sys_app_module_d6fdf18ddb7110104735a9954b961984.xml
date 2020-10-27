@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint>Define Call Flows</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>IVR</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_374271_alight4sn_ac_ivr</name>
+        <order>2</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-02 18:44:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d6fdf18ddb7110104735a9954b961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Call Flows</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_update_name>sys_app_module_d6fdf18ddb7110104735a9954b961984</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-02 18:44:57</sys_updated_on>
+        <timeline_page/>
+        <title>Call Flows</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</application>
+        <file_path/>
+        <instance_id>5b64224cdb4357406578f22ebf9619cf</instance_id>
+        <instance_name>dev62876</instance_name>
+        <name>sys_app_module_d6fdf18ddb7110104735a9954b961984</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><content_page/><device_type/><filter/><hint>Define Call Flows</hint><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>IVR</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_374271_alight4sn_ac_ivr</name><order>2</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-02 18:44:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d6fdf18ddb7110104735a9954b961984</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Call Flows</sys_name><sys_overrides/><sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package><sys_policy/><sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope><sys_update_name>sys_app_module_d6fdf18ddb7110104735a9954b961984</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-02 18:44:57</sys_updated_on><timeline_page/><title>Call Flows</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-2048049401</payload_hash>
+        <record_name>Call Flows</record_name>
+        <reverted_from/>
+        <source>01d32750dba010104735a9954b961915</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-06 14:14:01</sys_created_on>
+        <sys_id>9196e116db3110104735a9954b96193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1732479fc400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-06 14:14:01</sys_updated_on>
+        <type>Module</type>
+        <update_guid>cf3ef18d99711010a2ee706d2af0d58d</update_guid>
+        <update_guid_history>cf3ef18d99711010a2ee706d2af0d58d:1451962586,cf3ef18d99711010a2ee706d2af0d58d:1451962586</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Call Flows">745a2616dbf110104735a9954b961998</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-06 19:09:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>2771f34434b9415896af3a2d096acb24</sys_id>
+        <sys_metadata>d6fdf18ddb7110104735a9954b961984</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Call Flows</sys_name>
+        <sys_package display_value="Alight4SN" source="x_374271_alight4sn">611c8e372f0300103ef85ff62799b6ca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Alight4SN">611c8e372f0300103ef85ff62799b6ca</sys_scope>
+        <sys_scope_delete display_value="">09903dccdf5f4e8c81bfa9d2c636d0b9</sys_scope_delete>
+        <sys_update_name>sys_app_module_d6fdf18ddb7110104735a9954b961984</sys_update_name>
+        <sys_update_version display_value="sys_app_module_d6fdf18ddb7110104735a9954b961984">9196e116db3110104735a9954b96193c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-06 19:09:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
